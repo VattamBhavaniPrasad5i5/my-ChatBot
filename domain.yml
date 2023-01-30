@@ -1,0 +1,162 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_happy
+  - mood_unhappy
+  - bot_challenge
+  - collage_info
+  - gmritan
+  - non_gmritan
+  - intro
+  - department_info
+  - online_payments
+  - Faculty_details
+  - HOD_details
+  - Academic_calendar
+  - Results
+  - Timetables
+  - 360view
+  - Faculty_details_CSE
+  - Faculty_details_civil
+  - Faculty_details_ece
+  - Faculty_details_eee
+  - Faculty_details_It
+  - Faculty_details_mech
+  - Faculty_details_bsh
+responses:
+  utter_intro:
+    - buttons:
+        - title: "GMRIT STUDENT"
+          payload: "/gmritan"
+        - title: "NON GMRIT STUDENT"
+          payload: "/non_gmritan"
+      text: "i have a question for you"
+
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_sad_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://media.tenor.com/lyagzpV526AAAAAd/mr-bean-emotional-mr-bean-surprising.gif"
+
+  utter_happy_cheer_up: 
+    - image: "https://media.tenor.com/bGgv8ew9uNAAAAAC/mr-bean.gif"
+      text: "Here is something to cheer you up:"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_collage_info:
+    - text: "Welcome to GMR Institute of Technology (GMRIT). 
+    Established in the year 1997 by GMR Varalakshmi Foundation 
+    – the corporate social responsibility arm of GMR Group 
+    – GMRIT offers aspiring engineers high quality technical education. 
+    here is the link for [GMRIT]({link})" 
+  utter_gmritan:
+    - text: "Hi there! we are glad to have u in GMRIT"
+
+  utter_non_gmritan:
+    - text: "Hi there! here is some amazing collage GMRIT"
+
+  utter_department_info:
+    - text: "Here we GO"
+
+  utter_online_payments:
+    - text: "You can make your Student or Staff or Guest payments [HERE]({link1})"
+
+  utter_Faculty_details:
+    - text: "Prinicipal: Dr.C.L.V.R.S.V.Prasad\n\nYou can check other Faculty_details [HERE]({link2})"
+
+  utter_HOD_details:
+    - text: "A Head of Department (HOD) in an engineering college is the administrative leader of a specific department within the college.
+     You can check the HOD_details [HERE]({link3})"
+  
+  utter_Academic_calendar:
+    - text: "u looking for academic calender and u can get any academic calender of GMRIT [HERE]({link4})"
+
+  utter_Results:
+    - text: "You can check past and present updated Results [HERE]({link5})"
+  
+  utter_Timetables:
+    - text: "You can check the Timetables [HERE]({link6})"
+
+  utter_360view:
+    - text: "The lush green GMRIT campus spreads across 117 acres.Let's experience the GMRIT in 360 degree view [HERE]({link7})"
+
+  utter_Faculty_details_CSE:
+    - text: "HOD: Dr.A.V.Ramana\n\nDepartment faculty details are [HERE]({link8})"
+
+  utter_Faculty_details_civil:
+    - text: "HOD: G Ganesh Prabhu\n\nDepartment faculty details are  [HERE]({link9})"
+
+  utter_Faculty_details_ece:
+    - text: "HOD: Dr.V.Jagan Naveen\n\nDepartment faculty details are [HERE]({link10})"
+
+  utter_Faculty_details_eee:
+      - text: "HOD: Dr.Ramana Pilla\n\nDepartment faculty details are [HERE]({link11})"
+
+  utter_Faculty_details_It:
+    - text: "HOD: Dr Ajit Kumar Rout\n\nDepartment faculty details are [HERE]({link12})"
+  
+  utter_Faculty_details_mech:
+    - text: "HOD: Dr. V Rambabu\n\nDepartment faculty details are [HERE]({link13})"
+
+  utter_Faculty_details_bsh:
+    - text: "HOD: Dr.R.L.Naidu\n\nDepartment faculty details are [HERE]({link14})"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - utter_intro
+  - utter_greet
+  - utter_sad_cheer_up
+  - utter_happy_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_iamabot
+  - utter_collage_info
+  - utter_gmritan
+  - utter_non_gmritan
+  - action_hello_world
+  - action_online_payments
+  - utter_online_payments  
+  - utter_department_info
+  - action_carousels
+  - utter_Faculty_details
+  - action_faculty_details
+  - utter_HOD_details
+  - action_hod_details
+  - utter_Academic_calendar
+  - action_academic_calendar
+  - utter_Results
+  - action_results
+  - utter_Timetables
+  - action_timetable
+  - utter_360view
+  - action_360view
+  - action_Faculty_details_CSE
+  - utter_Faculty_details_CSE
+  - action_Faculty_details_civil
+  - action_Faculty_details_ece
+  - action_Faculty_details_eee
+  - action_Faculty_details_it
+  - action_Faculty_details_mech
+  - action_Faculty_details_bsh

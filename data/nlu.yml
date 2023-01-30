@@ -1,0 +1,265 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_happy
+    examples: |
+      - my day was simply super
+      - I am happy
+      - I am happy
+      - super happy
+      - I'm so happy
+      - happy
+      - very happy
+      - feeling good
+      - feeling very good
+      - extremly happy
+      - so happi
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: collage_info
+    examples: |
+      -what is collage name?
+      -what collage?
+      -collage name
+      -what is the address of the collage?
+      -collage address
+      -tell about collage
+      -collage information?
+      -information about collage
+
+  - intent: gmritan
+    examples: |
+      -im student in gmrit
+      -GMRIT STUDENT
+
+  - intent: non_gmritan
+    examples: |
+      -im not gmrit student
+      -NON GMRIT STUDENT
+
+  - intent: intro
+    examples: |
+      -hello..
+
+  - intent: department_info
+    examples: |
+      -what are the departments in Gmrit
+      -GMRIT departments
+      -how many departments in gmrit
+      -departments info
+      -deparments
+      -branches
+      -gmrit branches
+
+  - intent: online_payments
+    examples: |
+      -how to do online payments
+      -how to pay jvd fee
+      -how to pay non-jvd fee
+      -how to pay hostel fee
+      -how to pay bus fee
+      -how to pay penalty fee
+      -how to pay library penalty
+      -how to do staff payments
+      -how to other payments
+      -how to do payments
+      -online payments
+      -payments
+
+  - intent: Faculty_details
+    examples: |
+      -Faculty details of GMRIT college
+      -who is the principal
+      -how to get faculty details
+      -performance of Faculty in this collage
+      -faculty info
+      -faculty infomation
+
+  - intent: HOD_details
+    examples: |
+      -how to get details of HOD 
+      -who is the hod of cse
+      -who is the hod of civil
+      -who is the hod of ece
+      -who is the hod of eee
+      -who is the hod of it
+      -who is the hod of mech
+      -who is the hod of bsh
+
+  - intent: Academic_calendar
+    examples: |
+      -Academic calendar
+      -Academic calendar of GMRIT
+      -What is the academic calendar of GMRIT
+      -GMRIT Academic calendar
+  - intent: Results
+    examples: |
+      -results
+      -How to get the results
+      -where to see the results 
+      -How to know the results
+      -about results
+      -today results
+  - intent: Timetables
+    examples: |
+      -timetables
+      -How to get the timetables
+      -where to see the timetables 
+      -How to know the timetables
+      -timetable of 2022
+      -2022 timttable
+  - intent: 360view
+    examples: |
+      -360 view of gmrit
+      -360 degree view
+      -360 view
+      -whole view of gmrit
+      -360 view of college
+  - intent: Faculty_details_CSE
+    examples: |
+      -where to find the faculty details of CSE department
+      -how to get faculty details of CSE department
+      -who is cse HOD
+      -CSE HOD and Faculty
+      -cse department faculty
+      -cse faculty
+  - intent: Faculty_details_civil
+    examples: |
+      -where to find the faculty details of civil department
+      -how to get faculty details of civil department
+      -who is civil HOD
+      -CIVIL HOD and Faculty
+      -civil department faculty
+      -civil faculty
+  - intent: Faculty_details_ece
+    examples: |
+      -where to find the faculty details of ece department
+      -how to get faculty details of ece department
+      -who is ece HOD
+      -ECE HOD and Faculty
+      -ece department faculty
+      -ece faculty
+  - intent: Faculty_details_eee
+    examples: |
+      -where to find the faculty details of eee department
+      -how to get faculty details of eee department
+      -who is eee HOD
+      -EEE HOD and Faculty
+      -eee department faculty
+      -eee faculty
+
+  - intent: Faculty_details_It
+    examples: |
+      -where to find the faculty details of It department
+      -how to get faculty details of It department
+      -who is it HOD
+      -IT HOD and Faculty
+      -it department faculty
+      -it faculty
+
+  - intent: Faculty_details_mech
+    examples: |
+      -where to find the faculty details of mechanical department
+      -how to get faculty details of mech department
+      -who is mech HOD
+      -who is mechanical HOD
+      -mech HOD and Faculty
+      -mech department faculty
+      -mech faculty
+
+  - intent: Faculty_details_bsh
+    examples: |
+      -where to find the faculty details of bsh department
+      -how to get faculty details of bsh department
+      -who is bsh HOD
+      -BSH HOD and Faculty
+      -bsh department faculty
+      -bsh faculty
