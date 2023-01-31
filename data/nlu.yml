@@ -263,3 +263,11 @@ nlu:
       -BSH HOD and Faculty
       -bsh department faculty
       -bsh faculty
+  - intent: NIRF_ranking
+    examples: |
+      -nirf ranking of gmrit
+      -NIRF ranking
+      -nirf of gmrit
+      -gmrit nirf ranking
+      -what is latest nirf ranking of gmrit
+      -latest nirf ranking

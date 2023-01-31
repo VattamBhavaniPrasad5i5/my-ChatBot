@@ -28,6 +28,7 @@ intents:
   - Faculty_details_It
   - Faculty_details_mech
   - Faculty_details_bsh
+  - NIRF_ranking
 responses:
   utter_intro:
     - buttons:
@@ -117,6 +118,9 @@ responses:
 
   utter_Faculty_details_bsh:
     - text: "HOD: Dr.R.L.Naidu\n\nDepartment faculty details are [HERE]({link14})"
+  
+  utter_NIRF_ranking:
+    - text: "GMRIT Ranked 188 at National level in NIRF ranking, MHRD, New Delhi, July 2022."
 
 
 session_config:
@@ -160,3 +164,4 @@ actions:
   - action_Faculty_details_it
   - action_Faculty_details_mech
   - action_Faculty_details_bsh
+  - utter_NIRF_ranking

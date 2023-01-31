@@ -130,23 +130,34 @@ stories:
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Faculty_details_eee
       - action: action_Faculty_details_eee
   - story: It Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Faculty_details_It
       - action: action_Faculty_details_it
   - story: mech Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Faculty_details_mech
       - action: action_Faculty_details_mech
   - story: bsh Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Faculty_details_bsh
       - action: action_Faculty_details_bsh
+  - story: nirf ranking path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: NIRF_ranking
+      - action: utter_NIRF_ranking
