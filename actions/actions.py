@@ -273,6 +273,11 @@ class ActionCarousel_departmentInfo(Action):
                                 "title": "Click here",
                                 "url": "https://gmrit.edu.in/department.php?code=ece",
                                 "type": "web_url"
+                            },
+                            {
+                                "title": "faculty",
+                                "url": "https://gmrit.edu.in/facultydirectory.php?dept=ece",
+                                "type": "web_url"
                             }
                         ]
                     }
