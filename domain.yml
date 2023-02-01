@@ -29,6 +29,17 @@ intents:
   - Faculty_details_mech
   - Faculty_details_bsh
   - NIRF_ranking
+  - Notifications
+  - Exam_Notifications
+  - Placements
+  - Autonomy_Governance
+  - Academic_Regulations
+  - PG_Programs
+  - LAN-Based_courses
+  - Lecture_capturing_system
+  - Labs
+  - Library
+  - Sports
 responses:
   utter_intro:
     - buttons:
@@ -122,6 +133,39 @@ responses:
   utter_NIRF_ranking:
     - text: "GMRIT Ranked 188 at National level in NIRF ranking, MHRD, New Delhi, July 2022."
 
+  utter_Notifications:
+    - text: "You can check Notifications [HERE]({link15})"
+
+  utter_Exam_Notifications:
+    - text: "You can check Exam_Notifications [HERE]({link16})"
+
+  utter_Placements:
+    - text: "GMRIT’s Training, Placement and Development Cell plays a critical role in networking graduating students with the industry. It prepares the students for the process of recruitment and simultaneously create awareness among companies about the recruitment opportunities at GMRIT.  
+            For more information click [HERE]({link17})"
+
+  utter_Autonomy_Governance:
+    - text: "In competitive education/job market, each college has a reputation to protect. Reputation is a more reliable tool than standardization to sustain the quality of education.For more information click [HERE]({link18})"
+
+  utter_Academic_Regulations:
+    - text: "You can check the Academic_Regulations [HERE]({link19})"
+
+  utter_PG_Programs:
+    - text: "You can check diferrent PG programs offered [HERE]({link20})"
+
+  utter_LAN-Based_courses:
+    - text: "Lan-based courses offer an advantage in access to course information, in providing links to a wider resource base. Lan-based course do not guarantee increased knowledge but they do remove impediments from the learning process.You can access the LAN-Based_courses [HERE]({link21})"
+
+  utter_Lecture_capturing_system:
+    - text: "Watch classroom recordings-anytime-anywhere at your own place using LCS.You can access the Lecture_Capturing_System [HERE]({link22})"
+
+  utter_Labs:
+    - text: "GMRIT provides various lab facilities,you can check the details of labs [HERE]({link23})"
+
+  utter_Library:
+    - text: "There is a large Knowledge Resource Center(Library) in GMRIT.Here you can easily get access for borrowing books.You can check further details [HERE]({link24})"
+
+  utter_Sports:
+    - text: "Besides academics,GMRIT also gives most preference to sports and encourages students in various sports.For further details click [HERE]({link25})"
 
 session_config:
   session_expiration_time: 60
@@ -165,3 +209,14 @@ actions:
   - action_Faculty_details_mech
   - action_Faculty_details_bsh
   - utter_NIRF_ranking
+  - action_Notifications
+  - action_Exam_Notifications
+  - action_Placements
+  - action_Autonomy_Governance
+  - action_Academic_Regulations
+  - action_PG_Programs
+  - action_LAN-Based_courses
+  - action_Lecture_capturing_system
+  - action_Labs
+  - action_Library
+  - action_Sports

@@ -4,14 +4,12 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - action: action_listen  # predicted: utter_intro
   - intent: mood_great
   - action: utter_happy  # predicted: action_default_fallback
 - story: happy path 2 (.\tests\test_stories.yml)
   steps:
   - intent: greet
   - action: utter_greet
-  - action: action_listen  # predicted: utter_intro
   - intent: mood_great
   - action: utter_happy  # predicted: action_default_fallback
   - intent: goodbye
@@ -20,7 +18,6 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - action: action_listen  # predicted: utter_intro
   - intent: mood_unhappy
   - action: utter_cheer_up  # predicted: utter_sad_cheer_up after action_unlikely_intent
   - action: utter_did_that_help  # predicted: action_listen
@@ -30,19 +27,17 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - action: action_listen  # predicted: utter_intro
   - intent: mood_unhappy
   - action: utter_cheer_up  # predicted: utter_sad_cheer_up after action_unlikely_intent
   - action: utter_did_that_help  # predicted: action_listen
   - intent: deny
-  - action: utter_goodbye  # predicted: action_faculty_details after action_unlikely_intent
+  - action: utter_goodbye  # predicted: action_unlikely_intent
 - story: sad path 3 (.\tests\test_stories.yml)
   steps:
   - intent: greet
   - action: utter_greet
-  - action: action_listen  # predicted: utter_intro
   - intent: mood_unhappy
   - action: utter_cheer_up  # predicted: utter_sad_cheer_up after action_unlikely_intent
   - action: utter_did_that_help  # predicted: action_listen
   - intent: deny
-  - action: utter_goodbye  # predicted: action_faculty_details after action_unlikely_intent
+  - action: utter_goodbye  # predicted: action_unlikely_intent

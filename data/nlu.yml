@@ -114,6 +114,8 @@ nlu:
       -tell about collage
       -collage information?
       -information about collage
+      -clg info
+      -college info
 
   - intent: gmritan
     examples: |
@@ -138,6 +140,11 @@ nlu:
       -deparments
       -branches
       -gmrit branches
+      -what are the programs offered by GMRIT
+      -what are the different programs offered
+      -what types of programs existed in GMRIT
+      -what are the UG programs offered by GMRIT
+      -what are BTECH programs offered by GMRIT
 
   - intent: online_payments
     examples: |
@@ -271,3 +278,78 @@ nlu:
       -gmrit nirf ranking
       -what is latest nirf ranking of gmrit
       -latest nirf ranking
+
+  - intent: Notifications
+    examples: |
+      -where can I get the placement notifications
+      -what are the current events notifications of GMRIT
+      -where can i see the placement notifications of GMRIT
+      -Events of GMRIT
+      -Notice board of GMRIT
+
+  - intent: Exam_Notifications
+    examples: |
+      -where can I get the semester exam notifications
+      -where can i get the supplementary exam notfication 
+      -where can i see 5 sem exam notifications
+      -where can i get 4 sem supple notifications
+
+  - intent: Placements
+    examples: |
+      -where can i get the placement information
+      -Placements of GMRIT
+      -what is the current placement information of GMRIT
+      -where can i see the placement notifications of GMRIT
+
+  - intent: Autonomy_Governance
+    examples: |
+      -What is the govenance information of GMRIT
+      -What is the autonomy information of GMRIT
+      -What is autonomy
+      -Autonomy information of GMRIT
+
+  - intent: Academic_Regulations
+    examples: |
+      -What are the academic regulations of GMRIT
+      -where can I get the academic regulations of GMRIT
+      -what are the academic regulations present in gmrit
+      -where can i find the academic regulations
+
+  - intent: PG_Programs
+    examples: |
+      -what are the PG programs offered by GMRIT
+      -what are the different PG  programs offered
+      -what are MTECH programs offered by GMRIT
+
+  - intent: LAN-Based_courses
+    examples: |
+      -what are LAN_based courses in GMRIT
+      -where can i find different study materials 
+      -where to find different question papers 
+      -where can i access my LAN-Based_courses
+
+  - intent: Lecture_capturing_system
+    examples: |
+      -what is Lecture_capturing_system
+      -where can i find recordings of different subjects 
+      -where can i access the lecture_capturing_system
+      -about LCS
+      -lcs sysytem
+
+  - intent: Labs
+    examples: |
+      -what are the lab resources provided by GMRIT
+      -Does GMRIT provide lab facility
+      -what are the different labs in GMRIT
+
+  - intent: Library
+    examples: |
+      -Is there a library in GMRIT
+      -where can we get the subject related books
+      -where can we get the books of respective department
+
+  - intent: Sports
+    examples: |
+      -Which sports are being encouraged by GMRIT
+      -Is GMRIT providing any sports facility
+      -Which sports can be played in GMRIT
