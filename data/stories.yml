@@ -165,65 +165,76 @@ stories:
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Notifications
       - action: action_Notifications
   - story: Exam_Notifications path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Exam_Notifications
       - action: action_Exam_Notifications
   - story: Placements path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Placements
       - action: action_Placements
   - story: Autonomy_Governance path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Autonomy_Governance
       - action: action_Autonomy_Governance
   - story: Academic_Regulations path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Academic_Regulations
       - action: action_Academic_Regulations
   - story: PG_Programs path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: PG_Programs
       - action: action_PG_Programs
   - story: LAN-Based_courses path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: LAN-Based_courses
       - action: action_LAN-Based_courses
   - story: Lecture_Capturing_System path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Lecture_capturing_system
       - action: action_Lecture_capturing_system
   - story: Labs path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Labs
       - action: action_Labs
   - story: Library path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Library
       - action: action_Library
   - story: Sports path
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_intro
       - intent: Sports
       - action: action_Sports
