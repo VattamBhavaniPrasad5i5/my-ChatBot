@@ -280,6 +280,23 @@ class ActionCarousel_departmentInfo(Action):
                                 "type": "web_url"
                             }
                         ]
+                    },
+                    {
+                        "title": "IT",
+                        "subtitle": "Information Technology",
+                        "image_url": "https://gmrit.edu.in/images/blocks/Landing.png",
+                        "buttons": [
+                            {
+                                "title": "Click here",
+                                "url": "https://gmrit.edu.in/department.php?code=it",
+                                "type": "web_url"
+                            },
+                            {
+                                "title": "faculty",
+                                "url": "https://gmrit.edu.in/facultydirectory.php?dept=it",
+                                "type": "web_url"
+                            }
+                        ]
                     }
                 ]
             }
