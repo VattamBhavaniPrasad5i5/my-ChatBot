@@ -353,3 +353,78 @@ nlu:
       -Which sports are being encouraged by GMRIT
       -Is GMRIT providing any sports facility
       -Which sports can be played in GMRIT
+
+  - intent: Auditorium
+    examples: |
+      -Auditorium of GMRIT
+      -Is there an auditorium in this college
+      -Details of auditorium
+      -Is there an auditorium in GMRIT
+
+  - intent: Dining
+    examples: |
+      -How will be the hostel dining
+      -Is the dining facility good in this college
+      -Is there any dining facility in the hostel
+      -how is the dining
+
+  - intent: Post_office
+    examples: |
+      -Is there a post office in GMRIT
+      -Does gmrit consists of a post office
+      -Does gmrit provides post office facility
+
+  - intent: ATM
+    examples: |
+      -Is there an ATM in GMRIT
+      -Does gmrit consists of an ATM
+      -Does gmrit provides ATM facility
+
+  - intent: Medical_Assistance
+    examples: |
+      -Does GMRIT provide with medical assistance
+      -Does the hostlers get good medical assistance
+      -How is the medical assistance given to the hostlers
+
+  - intent: Bakery
+    examples: |
+      -Is there any bakery in gmrit.
+      -Does gmrit contains a bakery
+      -Does any bakery available for the students
+
+  - intent: Canteen
+    examples: |
+      -Is there canteen facility in GMRIT
+      -Is there any canteen facility for day scholars
+      -Where can the students have their lunch or breakfast
+
+  - intent: wifi
+    examples: |
+      -Does gmrit provide free wifi
+      -Does gmrit provide wifi facility for students and faculty
+      -Is there any internet and wireless networking facility
+
+  - intent: security
+    examples: |
+      - Is good security provided for hostlers in GMRIT
+      - Are hostlers provided with good security
+      - Is security provided all through the year
+
+  - intent: Recreation
+    examples: |
+      - Details of recreation
+      - Is recreation provided in GMRIT
+      - Is there any recreation facility in this college
+
+  - intent: yoga
+    examples: |
+      - Are students are enrolled with yoga classes
+      - Are students are trained for yoga 
+      - Is this college conducting yoga classes
+      - How is the college encouraging students to be fit and healthy
+
+  - intent: Computer_Block
+    examples: |
+      - Where is the computer block.
+      - Is there any computer block provided by this college
+      - Where to do computer related work after college hours

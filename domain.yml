@@ -40,6 +40,18 @@ intents:
   - Labs
   - Library
   - Sports
+  - Auditorium
+  - Dining
+  - Post_office
+  - ATM
+  - Medical_Assistance
+  - Bakery
+  - Canteen
+  - wifi
+  - security
+  - Recreation
+  - yoga
+  - Computer_Block
 responses:
   utter_intro:
     - buttons:
@@ -167,6 +179,42 @@ responses:
   utter_Sports:
     - text: "Besides academics,GMRIT also gives most preference to sports and encourages students in various sports.For further details click [HERE]({link25})"
 
+  utter_Auditorium:
+    - text: "GMRIT has a state-of-the-art auditorium with a seating capacity of 264. Well designed acoustics, a 17000 W audio system, imported multimedia projector, special stage lighting, computerised AC system are just some of its hi-tech features."
+
+  utter_Dining:
+    - text: "The dining facility of GMRIT is very good enough providing hygienic and nutritious meals, two times a day. Well-ventilated and modern dining halls are provided for both the hostels. A resident F&B Manager is appointed to monitor and optimise the nutritional levels in food served."
+
+  utter_Post_office:
+    - text: "Post office is available with in the campus for convenience of students and faculty."
+
+  utter_ATM:
+    - text: "GMRIT also provides with ATM facility.The management has arranged an Andhra Bank ATM facility on campus for the convenience of students and faculty."
+
+  utter_Medical_Assistance:
+    - text: "GMRIT is providing good medical assistance to the students staying in the hostels.A doctor and health assistant offer their services to both hostels, everyday."
+
+  utter_Bakery:
+    - text: "This college also provides a bakery facility within each hostel to enable students to buy breads, seasonal fruits, juices, etc."
+
+  utter_Canteen:
+    - text: "Canteen facility is provided for day scholars with healthy and tasty foods at reasonable rates."
+
+  utter_wifi:
+    - text: "We are having 1 GBPS dedicated Internet bandwidth from BSNL & Airtel through leased lines to provide Internet facility to all the students and staff members of GMRIT. Wireless networking facility is also provided within the campus to connect mobile users."
+
+  utter_security:
+   - text: "Hostels are provided with round-the-clock security all through the year."
+
+  utter_recreation:
+   - text: "Both hostels are provided with TV's, board games, newspapers, journals, etc. for indoor entertainment. Separate shuttle courts are also provided in the hostel complex. Hostelers are taken out for a movie or shopping, once a month"
+
+  utter_yoga:
+   - text: "Students are encouraged to attend Yoga classes to help them balance work and recreation, mind and body."
+
+  utter_Computer_block:
+   - text: "A computer block with internet facility is provided in the women's hostel for computer-related work after college hours."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -220,3 +268,15 @@ actions:
   - action_Labs
   - action_Library
   - action_Sports
+  - utter_Auditorium
+  - utter_Dining
+  - utter_Post_office
+  - utter_ATM
+  - utter_Medical_Assistance
+  - utter_Bakery
+  - utter_Canteen
+  - utter_wifi
+  - utter_security
+  - utter_recreation
+  - utter_yoga
+  - utter_Computer_block

@@ -238,3 +238,87 @@ stories:
       - action: utter_intro
       - intent: Sports
       - action: action_Sports
+  - story: Auditorium path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Auditorium
+      - action: utter_Auditorium
+  - story: Dining path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Dining
+      - action: utter_Dining
+  - story: Post_office path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Post_office
+      - action: utter_Post_office
+  - story: ATM path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: ATM
+      - action: utter_ATM
+  - story: Medical_Assistance path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Medical_Assistance
+      - action: utter_Medical_Assistance
+  - story: Bakery path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Bakery
+      - action: utter_Bakery
+  - story: Canteen path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Canteen
+      - action: utter_Canteen
+  - story: wifi path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: wifi
+      - action: utter_wifi
+  - story: security path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: security
+      - action: utter_security
+  - story: recreation path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Recreation
+      - action: utter_recreation
+  - story: yoga path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: yoga
+      - action: utter_yoga
+  - story: Computer_block path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Computer_Block
+      - action: utter_Computer_block
