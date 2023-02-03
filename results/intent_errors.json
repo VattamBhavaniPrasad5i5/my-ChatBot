@@ -4,7 +4,7 @@
     "intent": "intro",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.628198504447937
+      "confidence": 0.7824300527572632
     }
   },
   {
@@ -12,7 +12,7 @@
     "intent": "Placements",
     "intent_prediction": {
       "name": "Notifications",
-      "confidence": 0.7803611159324646
+      "confidence": 0.5677902102470398
     }
   }
 ]

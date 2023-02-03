@@ -116,6 +116,7 @@ nlu:
       -information about collage
       -clg info
       -college info
+      -how was the college
 
   - intent: gmritan
     examples: |
@@ -314,6 +315,8 @@ nlu:
       -where can I get the academic regulations of GMRIT
       -what are the academic regulations present in gmrit
       -where can i find the academic regulations
+      -AR20
+      -about AR19 UG program
 
   - intent: PG_Programs
     examples: |
@@ -325,8 +328,17 @@ nlu:
     examples: |
       -what are LAN_based courses in GMRIT
       -where can i find different study materials 
-      -where to find different question papers 
+      -where to find previous question papers 
       -where can i access my LAN-Based_courses
+      -how to download previous sem papers
+      -lan based materials
+      -gate previous papers
+      -gate material
+      -how to download syllabus
+      -syllabus download
+      -MTech syllabus download
+      -M.Tech. Sessional Examination Question Papers & keys
+      -B.Tech. Sessional Examination Question Papers & keys
 
   - intent: Lecture_capturing_system
     examples: |
@@ -428,3 +440,17 @@ nlu:
       - Where is the computer block.
       - Is there any computer block provided by this college
       - Where to do computer related work after college hours
+
+  - intent: student_parent_login
+    examples: |
+      -how to check my attendance
+      -how to check my previous sem results 
+      -how to check my previous sem attendance
+      -student login
+      -parent logins
+      -fees structure
+      -what is the fees of 2 year
+      -fees for 3rd year
+      -login to 20341a05i5 number
+      -faculty login
+      -about jntuk number 20341a05i5s

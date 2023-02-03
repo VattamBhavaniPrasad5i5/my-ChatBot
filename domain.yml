@@ -52,6 +52,7 @@ intents:
   - Recreation
   - yoga
   - Computer_Block
+  - student_parent_login
 responses:
   utter_intro:
     - buttons:
@@ -215,6 +216,9 @@ responses:
   utter_Computer_block:
    - text: "A computer block with internet facility is provided in the women's hostel for computer-related work after college hours."
 
+  utter_student_parent_login:
+   - text: "Student/Parent/faculty can login [HERE]({link26})"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -280,3 +284,4 @@ actions:
   - utter_recreation
   - utter_yoga
   - utter_Computer_block
+  - action_student_parent_login

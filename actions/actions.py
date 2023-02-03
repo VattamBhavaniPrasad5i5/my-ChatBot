@@ -377,6 +377,20 @@ class Sports(Action):
         return []
 
 
+class Sports(Action):
+
+    def name(self) -> Text:
+        return "action_student_parent_login"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        Link26 = "http://115.241.205.4/spflogin/Login.aspx"
+        dispatcher.utter_template(
+            "utter_student_parent_login", tracker, link26=Link26)
+        return []
+
+
 class ActionCarousel_departmentInfo(Action):
     def name(self) -> Text:
         return "action_carousels"

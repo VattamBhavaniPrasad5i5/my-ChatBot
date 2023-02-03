@@ -322,3 +322,10 @@ stories:
       - action: utter_intro
       - intent: Computer_Block
       - action: utter_Computer_block
+  - story: student parent login path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: student_parent_login
+      - action: action_student_parent_login
