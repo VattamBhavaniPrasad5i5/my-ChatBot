@@ -372,3 +372,10 @@ stories:
       - action: utter_intro
       - intent: Thermal
       - action: action_Thermal
+  - story: infrastructure path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Infrastructure
+      - action: utter_Infrastructure

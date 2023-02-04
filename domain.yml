@@ -59,6 +59,7 @@ intents:
   - Transportation
   - VLSI_and_embedded_systems_design
   - Thermal
+  - Infrastructure
 responses:
   utter_intro:
     - buttons:
@@ -183,6 +184,7 @@ responses:
         - title: "Thermal"
           payload: "/Thermal"
       text: "see more [HERE]({link20})."
+    
 
   utter_LAN-Based_courses:
     - text: "Lan-based courses offer an advantage in access to course information, in providing links to a wider resource base. Lan-based course do not guarantee increased knowledge but they do remove impediments from the learning process.You can access the LAN-Based_courses [HERE]({link21})"
@@ -254,9 +256,39 @@ responses:
     - text: "To Know more about VLSI and embedded systems design program click [HERE]({link31})"
 
   utter_Thermal:
-      - text: "To Know more about Thermal program click [HERE]({link32})"
+    - text: "To Know more about Thermal program click [HERE]({link32})"
 
-
+  utter_Infrastructure:
+    - buttons:
+        - title: "Modern Auditorium"
+          payload: "/Auditorium"
+        - title: "Dining"
+          payload: "/Dining"
+        - title: "Post_office"
+          payload: "/Post_office"
+        - title: "ATM"
+          payload: "/ATM"
+        - title: "Medical_Assistance"
+          payload: "/Medical_Assistance"
+        - title: "Bakery"
+          payload: "/Bakery"
+        - title: "Canteen"
+          payload: "/Canteen"
+        - title: "wifi"
+          payload: "/wifi"
+        - title: "security"
+          payload: "/security"
+        - title: "Recreation"
+          payload: "/Recreation"
+        - title: "Canteen"
+          payload: "/Canteen"
+        - title: "wifi"
+          payload: "/wifi"
+        - title: "yoga"
+          payload: "/yoga"
+        - title: "Computer_Block"
+          payload: "/Computer_Block"
+      text: "Here we GO."
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -330,3 +362,4 @@ actions:
   - action_Transportation
   - action_VLSI_and_embedded_systems_design
   - action_Thermal
+  - utter_Infrastructure

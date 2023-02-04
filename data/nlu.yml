@@ -496,3 +496,11 @@ nlu:
       -About Thermal course in GMRIT
       -Is Thermal course incuded as PG program
       -Is Thermal course included in MTECH programs
+
+  - intent: Infrastructure
+    examples: |
+      -what is the quality of infrastructure in gmrit
+      -infra in gmrit
+      -infrastructure
+      -facilities in gmrit
+      -gmrit facilities
