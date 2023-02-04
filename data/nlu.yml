@@ -454,3 +454,45 @@ nlu:
       -login to 20341a05i5 number
       -faculty login
       -about jntuk number 20341a05i5s
+
+  - intent: Cyber_Security
+    examples: |
+      -Is there Cyber security course in GMRIT
+      -About cyber security course in GMRIT
+      -Is cyber security incuded as PG program
+      -Is cyber security included in MTECH programs
+
+  - intent: Environmental
+    examples: |
+      -Is there Environmental course in GMRIT
+      -About Environmental course in GMRIT
+      -Is Environmental course incuded as PG program
+      -Is Environmental course included in MTECH programs
+
+  - intent: power_and_industrial_drives
+    examples: |
+      -Is there power and industrial drives course in GMRIT
+      -About power and industrial drives course in GMRIT
+      -Is power and industrial drives course incuded as PG program
+      -Is power and industrial drives course included in MTECH programs
+
+  - intent: Transportation
+    examples: |
+      -Is there Transportation course in GMRIT
+      -About Transportation course in GMRIT
+      -Is Transportation course incuded as PG program
+      -Is Transportation course included in MTECH programs
+
+  - intent: VLSI_and_embedded_systems_design
+    examples: |
+      -Is there VLSI and embedded systems design course in GMRIT
+      -About VLSI and embedded systems design course in GMRIT
+      -Is VLSI and embedded systems design course incuded as PG program
+      -Is VLSI and embedded systems design course included in MTECH programs
+
+  - intent: Thermal
+    examples: |
+      -Is there Thermal course in GMRIT
+      -About Thermal course in GMRIT
+      -Is Thermal course incuded as PG program
+      -Is Thermal course included in MTECH programs

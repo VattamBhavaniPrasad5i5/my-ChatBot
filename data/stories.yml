@@ -329,3 +329,46 @@ stories:
       - action: utter_intro
       - intent: student_parent_login
       - action: action_student_parent_login
+
+  - story: Cyber_Security path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Cyber_Security
+      - action: action_Cyber_Security
+  - story: Environmental path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Environmental
+      - action: action_Environmental
+  - story: power and Industrial drives path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: power_and_industrial_drives
+      - action: action_power_and_industrial_drives
+  - story: Transportation path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Transportation
+      - action: action_Transportation
+  - story: VLSI and embedded systems design path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: VLSI_and_embedded_systems_design
+      - action: action_VLSI_and_embedded_systems_design
+  - story: Thermal path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_intro
+      - intent: Thermal
+      - action: action_Thermal

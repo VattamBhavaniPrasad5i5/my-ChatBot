@@ -377,7 +377,7 @@ class Sports(Action):
         return []
 
 
-class Sports(Action):
+class studentlogin(Action):
 
     def name(self) -> Text:
         return "action_student_parent_login"
@@ -388,6 +388,90 @@ class Sports(Action):
         Link26 = "http://115.241.205.4/spflogin/Login.aspx"
         dispatcher.utter_template(
             "utter_student_parent_login", tracker, link26=Link26)
+        return []
+
+
+class Cyber_Security(Action):
+
+    def name(self) -> Text:
+        return "action_Cyber_Security"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        Link27 = "http://www.gmrit.org/pgcourses_Cyper_Security.html"
+        dispatcher.utter_template(
+            "utter_Cyber_Security", tracker, link27=Link27)
+        return []
+
+
+class Environmental(Action):
+
+    def name(self) -> Text:
+        return "action_Environmental"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        Link28 = "http://www.gmrit.org/pgcourses_environmental_engineering.html"
+        dispatcher.utter_template(
+            "utter_Environmental", tracker, link28=Link28)
+        return []
+
+
+class power_and_industrial_drives(Action):
+
+    def name(self) -> Text:
+        return "action_power_and_industrial_drives"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        Link29 = "http://www.gmrit.org/pgcourses_power_and_industrial_drives.html"
+        dispatcher.utter_template(
+            "utter_power_and_industrial_drives", tracker, link29=Link29)
+        return []
+
+
+class Transportation(Action):
+
+    def name(self) -> Text:
+        return "action_Transportation"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        Link30 = "http://www.gmrit.org/pgcourses_transportation_engineering.html"
+        dispatcher.utter_template(
+            "utter_Transportation", tracker, link30=Link30)
+        return []
+
+
+class VLSI_and_embedded_systems_design(Action):
+
+    def name(self) -> Text:
+        return "action_VLSI_and_embedded_systems_design"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        Link31 = "http://www.gmrit.org/pgcourses_vlsi_and_embedded_system_design.html"
+        dispatcher.utter_template(
+            "utter_VLSI_and_embedded_systems_design", tracker, link31=Link31)
+        return []
+
+
+class Thermal(Action):
+
+    def name(self) -> Text:
+        return "action_Thermal"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        Link32 = "http://www.gmrit.org/pgcourses_Thermal_Engineering.html"
+        dispatcher.utter_template(
+            "utter_Thermal", tracker, link32=Link32)
         return []
 
 
