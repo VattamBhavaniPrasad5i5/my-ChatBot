@@ -365,6 +365,7 @@ nlu:
       -Which sports are being encouraged by GMRIT
       -Is GMRIT providing any sports facility
       -Which sports can be played in GMRIT
+      -About Gym in GMRIT
 
   - intent: Auditorium
     examples: |
