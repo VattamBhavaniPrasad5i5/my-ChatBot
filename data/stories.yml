@@ -5,7 +5,6 @@ stories:
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: mood_happy
       - action: utter_happy_cheer_up
 
@@ -13,7 +12,6 @@ stories:
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: mood_unhappy
       - action: utter_sad_cheer_up
       - action: utter_did_that_help
@@ -24,7 +22,6 @@ stories:
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: mood_unhappy
       - action: utter_sad_cheer_up
       - action: utter_did_that_help
@@ -34,7 +31,6 @@ stories:
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: collage_info
       - action: action_hello_world
   - story: intro gmritan path
@@ -54,279 +50,239 @@ stories:
       - intent: greet
       - action: utter_greet
       - action: utter_intro
-      - intent: department_info
       - action: action_carousels
   - story: online payments path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: online_payments
       - action: action_online_payments
   - story: Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Faculty_details
       - action: action_faculty_details
   - story: HOD details path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: HOD_details
       - action: action_hod_details
   - story: Academic calendar path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Academic_calendar
       - action: action_academic_calendar
   - story: Results path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Results
       - action: action_results
   - story: Timetables path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Timetables
       - action: action_timetable
   - story: 360views path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: 360view
       - action: action_360view
   - story: CSE Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Faculty_details_CSE
       - action: action_Faculty_details_CSE
   - story: CIVIL Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Faculty_details_civil
       - action: action_Faculty_details_civil
   - story: ECE Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Faculty_details_ece
       - action: action_Faculty_details_ece
   - story: eee Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Faculty_details_eee
       - action: action_Faculty_details_eee
   - story: It Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Faculty_details_It
       - action: action_Faculty_details_it
   - story: mech Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Faculty_details_mech
       - action: action_Faculty_details_mech
   - story: bsh Faculty details path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Faculty_details_bsh
       - action: action_Faculty_details_bsh
   - story: nirf ranking path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: NIRF_ranking
       - action: utter_NIRF_ranking
   - story: Notifications path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Notifications
       - action: action_Notifications
   - story: Exam_Notifications path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Exam_Notifications
       - action: action_Exam_Notifications
   - story: Placements path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Placements
       - action: action_Placements
   - story: Autonomy_Governance path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Autonomy_Governance
       - action: action_Autonomy_Governance
   - story: Academic_Regulations path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Academic_Regulations
       - action: action_Academic_Regulations
   - story: PG_Programs path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: PG_Programs
       - action: action_PG_Programs
   - story: LAN-Based_courses path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: LAN-Based_courses
       - action: action_LAN-Based_courses
   - story: Lecture_Capturing_System path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Lecture_capturing_system
       - action: action_Lecture_capturing_system
   - story: Labs path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Labs
       - action: action_Labs
   - story: Library path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Library
       - action: action_Library
   - story: Sports path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Sports
       - action: action_Sports
   - story: Auditorium path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Auditorium
       - action: utter_Auditorium
   - story: Dining path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Dining
       - action: utter_Dining
   - story: Post_office path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Post_office
       - action: utter_Post_office
   - story: ATM path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: ATM
       - action: utter_ATM
   - story: Medical_Assistance path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Medical_Assistance
       - action: utter_Medical_Assistance
   - story: Bakery path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Bakery
       - action: utter_Bakery
   - story: Canteen path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Canteen
       - action: utter_Canteen
   - story: wifi path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: wifi
       - action: utter_wifi
   - story: security path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: security
       - action: utter_security
   - story: recreation path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Recreation
       - action: utter_recreation
   - story: yoga path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: yoga
       - action: utter_yoga
   - story: Computer_block path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Computer_Block
       - action: utter_Computer_block
   - story: student parent login path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: student_parent_login
       - action: action_student_parent_login
 
@@ -334,48 +290,41 @@ stories:
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Cyber_Security
       - action: action_Cyber_Security
   - story: Environmental path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Environmental
       - action: action_Environmental
   - story: power and Industrial drives path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: power_and_industrial_drives
       - action: action_power_and_industrial_drives
   - story: Transportation path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Transportation
       - action: action_Transportation
   - story: VLSI and embedded systems design path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: VLSI_and_embedded_systems_design
       - action: action_VLSI_and_embedded_systems_design
   - story: Thermal path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Thermal
       - action: action_Thermal
   - story: infrastructure path
     steps:
       - intent: greet
       - action: utter_greet
-      - action: utter_intro
       - intent: Infrastructure
       - action: utter_Infrastructure

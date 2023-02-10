@@ -90,7 +90,7 @@ responses:
     - text: "Bye"
 
   utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot,dont have an."
 
   utter_collage_info:
     - text: "Welcome to GMR Institute of Technology (GMRIT). 
