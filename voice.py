@@ -41,7 +41,7 @@ while bot_message != "Bye" or bot_message != 'thanks':
     # here we have assign slow=False. Which denotes
     # the module that the transformed audio should
     # have a high speed
-    obj = gTTS(text=bot_message, lang=language, slow=False)
+    obj = gTTS(text=bot_message, lang=language)
 
     # Here we are saving the transformed audio in a mp3 file named
     # exam.mp3

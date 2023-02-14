@@ -1,46 +1,37 @@
-<html> 
-  <body>
-  <style>
-    .rw-conversation-container .rw-header{background-color: #800080;}
-    .rw-conversation-container .rw-messages-container .rw-message .rw-client{background-color: #800080;}
-    .rw-conversation-container .rw-messages-container .rw-replies .rw-reply{
-      display:inline-block}
-    .rw-conversation-container .rw-messages-container .rw-replies.rw-response{background-color: #800080;}
-    .rw-conversation-container .rw-imageFrame{background-color: #800080;}
-    .rw-conversation-container .rw-send .rw-send-icon-ready {
-    fill: #800080;
-    transition: fill .35s;
-}
-.conversation-container close-button {
-    background-color: #F5360D;
-}
+<html>
 
-    .rw-widget-container .rw-launcher {background-color: #800080;} 
-    .rw-open-launcher__container .rw-open-launcher {background-color: #800080;}
-  </style>
+<body>
+
+  <head>
+
+    <link rel="stylesheet" href="./chatbot.css">
+  </head>
 
   <script>!(function () {
-    let e = document.createElement("script"),
-      t = document.head || document.getElementsByTagName("head")[0];
-    (e.src =
-      "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
-      // Replace 1.x.x with the version that you want
-      (e.async = !0),
-      (e.onload = () => {
-        window.WebChat.default(
-           {initPayload: '/greet' ,
-            customData: { language: "en" },
-            socketUrl: "http://localhost:5005/",
-            title: "GMRIT CHATBOT",
-            subtitle: "restart by greeting the BOT",
-            profileAvatar: "avatarBot.png"
-          },
-          null
-        );
-      }),
-      t.insertBefore(e, t.firstChild);
-  })();
-  localStorage.clear();
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+        // Replace 1.x.x with the version that you want
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default(
+            {
+              initPayload: '/welcome',
+              customData: { language: "en" },
+              socketUrl: "http://localhost:5005/",
+              socketPath: "/socket.io/",
+              title: "GMRIT CHATBOT",
+              subtitle: "restart by greeting the BOT",
+              profileAvatar: "avatarBot.png"
+            },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+    })();
+    localStorage.clear();
   </script>
 </body>
+
 </html>

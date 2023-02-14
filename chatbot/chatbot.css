@@ -1,0 +1,28 @@
+.rw-conversation-container .rw-header{background-color: #800080;}
+.rw-conversation-container .rw-messages-container .rw-message .rw-client{background-color: #800080;}
+.rw-conversation-container .rw-messages-container .rw-replies .rw-reply{
+  display:inline-block;}
+  .rw-conversation-container .rw-messages-container .rw-replies div.rw-reply{
+    background-color:#800080;
+    border: 0;
+        color: white;}
+.rw-conversation-container .rw-messages-container .rw-replies.rw-response{background-color: #800080;}
+.rw-conversation-container .rw-image-frame{width: 150px;height: 200px;background-size: cover;}
+.rw-conversation-container .rw-send .rw-send-icon-ready {
+fill: #800080;
+transition: fill .35s;
+}
+.rw-carousel-arrows-container .rw-right-arrow div.rw-arrow{margin-top: 2px}
+.rw-carousel-arrows-container .rw-left-arrow div.rw-arrow{margin-bottom: 2px}
+.conversation-container close-button {
+background-color: #F5360D;
+}
+.rw-carousel-card-subtitle{height: 40px;
+padding-top: 10px;}
+.rw-widget-container .rw-launcher {background-color: #800080;} 
+.rw-open-launcher__container .rw-open-launcher {background-color: #800080;}
+.rw-carousel-container .rw-carousel-card .rw-carousel-buttons-container .rw-reply{
+    background-color:#800080;
+border: 0;
+    color: white;
+}

@@ -1,11 +1,32 @@
 version: "3.1"
 
 nlu:
+  - intent: welcome
+    examples: |
+      - give welcome
+      - i want wishes
+      - wish me
+      - display welcome message
+      - welcome me
+      - give welcome message
+      - i need wishes
+  - intent: gender
+    examples: |
+      - are u girl or boy
+      - are you girl
+      - are you boy
+      - boy or girl
+      - what is your age 
+      - your age 
+      - your age please
+      - your gender
+
   - intent: greet
     examples: |
       - hey
       - hello
       - hi
+      - hai
       - hello there
       - good morning
       - good evening
@@ -38,6 +59,9 @@ nlu:
       - of course
       - that sounds good
       - correct
+      - fine
+      - i'm fine
+      - yes i'm fine
 
   - intent: deny
     examples: |
@@ -117,6 +141,15 @@ nlu:
       -clg info
       -college info
       -how was the college
+      -gmrit college established 
+      -how is gmrit
+      -about gmrit
+      -gmrit info
+      -area of gmrit
+      -area of gmrit in acres
+      -what is area of gmrit
+      -about gmrit college
+      -tell me about gmrit
 
   - intent: gmritan
     examples: |
@@ -127,10 +160,6 @@ nlu:
     examples: |
       -im not gmrit student
       -NON GMRIT STUDENT
-
-  - intent: intro
-    examples: |
-      -hello..
 
   - intent: department_info
     examples: |
@@ -165,7 +194,6 @@ nlu:
   - intent: Faculty_details
     examples: |
       -Faculty details of GMRIT college
-      -who is the principal
       -how to get faculty details
       -performance of Faculty in this collage
       -faculty info
@@ -323,6 +351,7 @@ nlu:
       -what are the PG programs offered by GMRIT
       -what are the different PG  programs offered
       -what are MTECH programs offered by GMRIT
+      -mtech programes in gmrit
 
   - intent: LAN-Based_courses
     examples: |
@@ -373,7 +402,6 @@ nlu:
       -Is there an auditorium in this college
       -Details of auditorium
       -Is there an auditorium in GMRIT
-
   - intent: Dining
     examples: |
       -How will be the hostel dining
@@ -505,3 +533,66 @@ nlu:
       -infrastructure
       -facilities in gmrit
       -gmrit facilities
+
+  - intent: Principle
+    examples: |
+      -who is the principal
+      -principal of gmrit
+      -principle of gmrit college
+      -this college principal
+      -college principal
+      -gmrit principle
+
+  - intent: controller_of_examinations
+    examples: |
+      -who is the examination section controller of GMRIT
+      -GMRIT controller of examinaton section
+      -Controller of examination section
+      -controller of examination section GMRIT
+      -controller of examinations of GMRIT
+      -head of examinations of GMRIT
+      -head of examination section GMRIT
+      -head of exams
+      -controller of exams
+  - intent: CDC_Head
+    examples: |
+      -who is the CDC Head of GMRIT
+      -CDC Head
+      -CDC Head of GMRIT
+      -GMRIT CDC Head
+      -head of cdc
+  - intent: Dean
+    examples: |
+      -who are the Deans of GMRIT
+      -Deans of GMRIT
+      -who is the Dean of GMRIT
+      -GMRIT Dean
+      -Deans
+      -Deans of GMRIT
+      -Dean of GMRIT
+  - intent: academic_dean
+    examples: |
+      -who is the academics dean of GMRIT
+      -academics dean of GMRIT
+      -academics dean
+      -gmrit academics dean
+  - intent: student_dean
+    examples: |
+      -who is the student affairs dean of gmrit
+      -student affairs dean of GMRIT
+      -students dean
+      -gmrit student affairs dean
+  - intent: R&D_dean
+    examples: |
+      -who is the R&D dean  of GMRIT
+      -R&D dean of GMRIT
+      -research and development dean
+      -gmrit research and development dean
+      -gmrit R&D dean
+  - intent: Director
+    examples: |
+      -who is the Director of GMRIT
+      -GMRIT Director
+      -Director
+      -Director GMRIT
+      -Director of GMRIT
