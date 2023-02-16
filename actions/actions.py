@@ -52,7 +52,7 @@ class FacultyDetails(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         Link2 = "https://gmrit.edu.in/facultydirectory.php"
         dispatcher.utter_template(
-            "utter_Faculty_details", tracker, link2=Link2)
+            "utter_faculty_details", tracker, link2=Link2)
         return []
 
 
@@ -177,7 +177,7 @@ class eee_faculty(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         Link11 = "https://gmrit.edu.in/facultydirectory.php?dept=eee"
         dispatcher.utter_template(
-            "utter_Faculty_details_eee", tracker, link11=Link11)
+            "utter_Faculty_details_eees", tracker, link11=Link11)
         return []
 
 

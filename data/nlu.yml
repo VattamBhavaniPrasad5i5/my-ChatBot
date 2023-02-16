@@ -1,15 +1,7 @@
 version: "3.1"
 
 nlu:
-  - intent: welcome
-    examples: |
-      - give welcome
-      - i want wishes
-      - wish me
-      - display welcome message
-      - welcome me
-      - give welcome message
-      - i need wishes
+
   - intent: gender
     examples: |
       - are u girl or boy
@@ -26,7 +18,6 @@ nlu:
       - hey
       - hello
       - hi
-      - hai
       - hello there
       - good morning
       - good evening
@@ -59,9 +50,6 @@ nlu:
       - of course
       - that sounds good
       - correct
-      - fine
-      - i'm fine
-      - yes i'm fine
 
   - intent: deny
     examples: |
@@ -124,11 +112,14 @@ nlu:
   - intent: bot_challenge
     examples: |
       - are you a bot?
+      - who are you
+      - how are you
+      - how u are
       - are you a human?
       - am I talking to a bot?
       - am I talking to a human?
 
-  - intent: collage_info
+  - intent: college_info
     examples: |
       -what is collage name?
       -what collage?
@@ -160,6 +151,7 @@ nlu:
     examples: |
       -im not gmrit student
       -NON GMRIT STUDENT
+
 
   - intent: department_info
     examples: |
@@ -194,6 +186,7 @@ nlu:
   - intent: Faculty_details
     examples: |
       -Faculty details of GMRIT college
+      -who is the principal
       -how to get faculty details
       -performance of Faculty in this collage
       -faculty info
@@ -202,13 +195,8 @@ nlu:
   - intent: HOD_details
     examples: |
       -how to get details of HOD 
-      -who is the hod of cse
-      -who is the hod of civil
-      -who is the hod of ece
-      -who is the hod of eee
-      -who is the hod of it
-      -who is the hod of mech
-      -who is the hod of bsh
+      -who is the hod 
+      -hod of gmrit
 
   - intent: Academic_calendar
     examples: |
@@ -243,7 +231,6 @@ nlu:
     examples: |
       -where to find the faculty details of CSE department
       -how to get faculty details of CSE department
-      -who is cse HOD
       -CSE HOD and Faculty
       -cse department faculty
       -cse faculty
@@ -251,7 +238,6 @@ nlu:
     examples: |
       -where to find the faculty details of civil department
       -how to get faculty details of civil department
-      -who is civil HOD
       -CIVIL HOD and Faculty
       -civil department faculty
       -civil faculty
@@ -259,7 +245,6 @@ nlu:
     examples: |
       -where to find the faculty details of ece department
       -how to get faculty details of ece department
-      -who is ece HOD
       -ECE HOD and Faculty
       -ece department faculty
       -ece faculty
@@ -267,7 +252,6 @@ nlu:
     examples: |
       -where to find the faculty details of eee department
       -how to get faculty details of eee department
-      -who is eee HOD
       -EEE HOD and Faculty
       -eee department faculty
       -eee faculty
@@ -276,7 +260,6 @@ nlu:
     examples: |
       -where to find the faculty details of It department
       -how to get faculty details of It department
-      -who is it HOD
       -IT HOD and Faculty
       -it department faculty
       -it faculty
@@ -285,7 +268,6 @@ nlu:
     examples: |
       -where to find the faculty details of mechanical department
       -how to get faculty details of mech department
-      -who is mech HOD
       -who is mechanical HOD
       -mech HOD and Faculty
       -mech department faculty
@@ -295,7 +277,6 @@ nlu:
     examples: |
       -where to find the faculty details of bsh department
       -how to get faculty details of bsh department
-      -who is bsh HOD
       -BSH HOD and Faculty
       -bsh department faculty
       -bsh faculty
@@ -352,6 +333,8 @@ nlu:
       -what are the different PG  programs offered
       -what are MTECH programs offered by GMRIT
       -mtech programes in gmrit
+      -mtech programs
+      -pg programs
 
   - intent: LAN-Based_courses
     examples: |
@@ -402,6 +385,7 @@ nlu:
       -Is there an auditorium in this college
       -Details of auditorium
       -Is there an auditorium in GMRIT
+
   - intent: Dining
     examples: |
       -How will be the hostel dining
@@ -420,12 +404,15 @@ nlu:
       -Is there an ATM in GMRIT
       -Does gmrit consists of an ATM
       -Does gmrit provides ATM facility
+      -bank in gmrit
+      -gmrit bank
 
   - intent: Medical_Assistance
     examples: |
       -Does GMRIT provide with medical assistance
       -Does the hostlers get good medical assistance
       -How is the medical assistance given to the hostlers
+      -medical facility in gmrit
 
   - intent: Bakery
     examples: |
@@ -482,7 +469,7 @@ nlu:
       -fees for 3rd year
       -login to 20341a05i5 number
       -faculty login
-      -about jntuk number 20341a05i5s
+      -about jntuk number 20341a05i5
 
   - intent: Cyber_Security
     examples: |
@@ -534,14 +521,82 @@ nlu:
       -facilities in gmrit
       -gmrit facilities
 
-  - intent: Principle
+  - intent: Principal
     examples: |
+      -who is the principal of GMRIT
+      -GMRIT principal
+      -principal
+      -principal GMRIT
+      -principal of GMRIT
       -who is the principal
       -principal of gmrit
       -principle of gmrit college
       -this college principal
       -college principal
       -gmrit principle
+
+  - intent: NAAC_accrediation
+    examples: |
+      -Is there NAAC accrediation for GMRIT
+      -NAAC accrediations
+      -GMRIT NAAC accrediations
+      -NAAC accrediations of GMRIT
+      -NAAC accrediation for GMRIT
+
+  - intent: NBA_accrediation
+    examples: |
+      -Is there NBA accrediation for GMRIT
+      -NBA accrediations
+      -GMRIT NBA accrediations
+      -NBA accrediations of GMRIT
+      -NBA accrediation for GMRIT
+
+  - intent: CDC_Head
+    examples: |
+      -who is the CDC Head of GMRIT
+      -CDC Head
+      -CDC Head of GMRIT
+      -GMRIT CDC Head
+
+  - intent: academic_dean
+    examples: |
+      -who is the academics dean of GMRIT
+      -academics dean of GMRIT
+      -academics dean
+      -gmrit academics dean
+
+  - intent: student_dean
+    examples: |
+      -who is the student affairs dean of gmrit
+      -student affairs dean of GMRIT
+      -students dean
+      -gmrit student affairs dean
+
+  - intent: R&D_dean
+    examples: |
+      -who is the R&D dean  of GMRIT
+      -R&D dean of GMRIT
+      -research and development dean
+      -gmrit research and development dean
+      -gmrit R&D dean
+
+  - intent: Dean
+    examples: |
+      -who are the Deans of GMRIT
+      -Deans of GMRIT
+      -who is the Dean of GMRIT
+      -GMRIT Dean
+      -Deans
+      -Deans of GMRIT
+      -Dean of GMRIT
+
+  - intent: Director
+    examples: |
+      -who is the Director of GMRIT
+      -GMRIT Director
+      -Director
+      -Director GMRIT
+      -Director of GMRIT
 
   - intent: controller_of_examinations
     examples: |
@@ -554,45 +609,60 @@ nlu:
       -head of examination section GMRIT
       -head of exams
       -controller of exams
-  - intent: CDC_Head
+
+  - intent: CSE_HOD
     examples: |
-      -who is the CDC Head of GMRIT
-      -CDC Head
-      -CDC Head of GMRIT
-      -GMRIT CDC Head
-      -head of cdc
-  - intent: Dean
+      -who is the CSE HOD of GMRIT
+      -CSE HOD
+      -CSE hod of GMRIT
+      -GMRIT CSE HOD
+      -hod of cse
+
+  - intent: IT_HOD
     examples: |
-      -who are the Deans of GMRIT
-      -Deans of GMRIT
-      -who is the Dean of GMRIT
-      -GMRIT Dean
-      -Deans
-      -Deans of GMRIT
-      -Dean of GMRIT
-  - intent: academic_dean
+      -who is the IT HOD of GMRIT
+      -IT HOD
+      -IT hod of GMRIT
+      -GMRIT IT HOD
+      -hod of it
+
+
+  - intent: CIVIL_HOD
     examples: |
-      -who is the academics dean of GMRIT
-      -academics dean of GMRIT
-      -academics dean
-      -gmrit academics dean
-  - intent: student_dean
+      -who is the CIVIL HOD of GMRIT
+      -CIVIL HOD
+      -CIVIL hod of GMRIT
+      -GMRIT CIVIL HOD
+      -hod of civil
+
+  - intent: ECE_HOD
     examples: |
-      -who is the student affairs dean of gmrit
-      -student affairs dean of GMRIT
-      -students dean
-      -gmrit student affairs dean
-  - intent: R&D_dean
+      -who is the ECE HOD of GMRIT
+      -ECE HOD
+      -ECE hod of GMRIT
+      -GMRIT ECE HOD
+      -hod of ece
+
+  - intent: EEE_HOD
     examples: |
-      -who is the R&D dean  of GMRIT
-      -R&D dean of GMRIT
-      -research and development dean
-      -gmrit research and development dean
-      -gmrit R&D dean
-  - intent: Director
+      -who is the EEE HOD of GMRIT
+      -EEE HOD
+      -EEE hod of GMRIT
+      -GMRIT EEE HOD
+      -hodof eee
+
+  - intent: MECH_HOD
     examples: |
-      -who is the Director of GMRIT
-      -GMRIT Director
-      -Director
-      -Director GMRIT
-      -Director of GMRIT
+      -who is the MECH HOD of GMRIT
+      -Mechanical HOD
+      -Mechanical hod of GMRIT
+      -GMRIT MECH HOD
+      -hod of mech
+
+  - intent: BSH_HOD
+    examples: |
+      -who is the BSH HOD of GMRIT
+      -BSH HOD
+      -BSH HOD of GMRIT
+      -GMRIT BSH HOD
+      -hod of bsh

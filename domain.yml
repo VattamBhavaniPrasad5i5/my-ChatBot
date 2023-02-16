@@ -1,7 +1,6 @@
 version: "3.1"
 
 intents:
-  - welcome
   - gender
   - greet
   - goodbye
@@ -11,9 +10,10 @@ intents:
   - mood_happy
   - mood_unhappy
   - bot_challenge
-  - collage_info
+  - college_info
   - gmritan
   - non_gmritan
+  - intro
   - department_info
   - online_payments
   - Faculty_details
@@ -61,24 +61,30 @@ intents:
   - VLSI_and_embedded_systems_design
   - Thermal
   - Infrastructure
-  - Principle
-  - controller_of_examinations
+  - Principal
+  - NAAC_accrediation
+  - NBA_accrediation
   - CDC_Head
   - academic_dean
   - student_dean
   - R&D_dean
-  - Director
   - Dean
+  - Director
+  - controller_of_examinations
+  - CSE_HOD
+  - IT_HOD
+  - CIVIL_HOD
+  - ECE_HOD
+  - EEE_HOD
+  - MECH_HOD
+  - BSH_HOD
+
 responses:
-  utter_welcome:
-    - text: "Hello✌️ Welcome to GMRIT💕"
-  
+
   utter_gender:
     - text: "As an artificial intelligence language model, I don't have a gender,age and emotions since I'm not a living being."
-
   utter_greet:
-    - text: "Hey! How are you?"
-
+    - text: "Hello there✌️"
   utter_sad_cheer_up:
     - text: "Here is something to cheer you up:"
       image: "https://media.tenor.com/lyagzpV526AAAAAd/mr-bean-emotional-mr-bean-surprising.gif"
@@ -97,12 +103,13 @@ responses:
     - text: "Bye"
 
   utter_iamabot:
-    - text: "I am a bot,dont have an."
+    - text: "I am GMRIT Chatbot and I am in good codition to reply all your question about collage.I am designed to understand natural language and engage in conversations about GMRIT college"
 
   utter_collage_info:
     - text: "Welcome to GMR Institute of Technology (GMRIT). 
-    Established in the year 1997 which spread over 117 acres by GMR Varalakshmi Foundation  the corporate social responsibility arm of GMR Group.
-    – GMRIT offers aspiring engineers high quality technical education.
+    Established in the year 1997 by GMR Varalakshmi Foundation 
+    – the corporate social responsibility arm of GMR Group 
+    – GMRIT offers aspiring engineers high quality technical education. 
     here is the link for [GMRIT]({link})" 
   utter_gmritan:
     - text: "Hi there! we are glad to have u in GMRIT"
@@ -116,7 +123,7 @@ responses:
   utter_online_payments:
     - text: "You can make your Student or Staff or Guest payments [HERE]({link1})"
 
-  utter_Faculty_details:
+  utter_faculty_details:
     - text: "Prinicipal: Dr.C.L.V.R.S.V.Prasad\n\nYou can check other Faculty_details [HERE]({link2})"
 
   utter_HOD_details:
@@ -174,7 +181,6 @@ responses:
 
   utter_Academic_Regulations:
     - text: "You can check the Academic_Regulations [HERE]({link19})"
-  
 
   utter_PG_Programs:
     - buttons:
@@ -190,7 +196,7 @@ responses:
           payload: "/VLSI_and_embedded_systems_design"
         - title: "Thermal"
           payload: "/Thermal"
-      text: " [HERE]({link20}) we go"
+      text: "see more [HERE]({link20})."
     
 
   utter_LAN-Based_courses:
@@ -296,27 +302,33 @@ responses:
         - title: "Computer_Block"
           payload: "/Computer_Block"
       text: "Here we GO."
-  utter_Principle:
-    - text: "Principal:Dr. C.L.V.R.S.V. Prasad"
-      image: r"C:\Users\V BHAVANI PRASAD\OneDrive\Desktop\project\images\principle.jpeg"
-  utter_controller_of_examinations:
-    - text: "controller of examinations:Dr.T.Prabhakar"
-      image: r"C:\Users\V BHAVANI PRASAD\OneDrive\Desktop\project\images\exams_head.jpg"
+
+  utter_Principal:
+    - text: "Principal: Dr.C.L.V.R.S.V.Prasad"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50203.JPG"
+
+  utter_NAAC_accrediation :
+    - text: " The Executive Committe of the National Assessment and Accrediation Council accrediated GMRIT with A grade with validation upto October 19, 2026 "
+
+  utter_NBA_accrediation :
+    - text: " GMRIT is accrediated by NBA(National Board of Accrediation) in Tier-1(autonomous) for the UG engineering program which is validated upto the year 2026  "
+
   utter_CDC_Head:
     - text: "CDC Head:Dr.Surya Narayan Dash"
-      image: r"C:\Users\V BHAVANI PRASAD\OneDrive\Desktop\project\images\cdc_head.jpeg"
-  utter_Academic_dean:
-    - text: "Asso. Dean(Acadamics):D r.M. V. Nageswara Rao"
-      image: r"C:\Users\V BHAVANI PRASAD\OneDrive\Desktop\project\images\academic_dean.jpeg"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50282.JPG"
+
+  utter_academic_dean:
+    - text: "Asso. Dean(Acadamics):D r.M. V. Nageswara Rao"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50225.JPG"
+
   utter_student_dean:
     - text: "Asso. Dean(Student Affairs):Dr. G. Sasikumar"
-      image: r"C:\Users\V BHAVANI PRASAD\OneDrive\Desktop\project\images\student_dean.jpeg"
+      image: "https://gmrit.edu.in/images/faculty/newimages/51433.JPG"
+
   utter_R&D_dean:
     - text: "Asso. Dean(R & D):Dr.P.S.Venkata Narayana"
-      image: r"C:\Users\V BHAVANI PRASAD\OneDrive\Desktop\project\images\R&D_dean.jpeg"
-  utter_Director:
-    - text: "Director: Dr.G.Girish "
-      image: r"C:\Users\V BHAVANI PRASAD\OneDrive\Desktop\project\images\director.jpg"
+      image: "https://gmrit.edu.in/images/faculty/newimages/52013.JPG"
+
   utter_dean:
     - buttons:
       - title: "Asso.Dean(Acadamics)"
@@ -326,12 +338,50 @@ responses:
       - title: "Asso.Dean(R & D)"
         payload: "/R&D_dean"
       text: "GMRIT have 3 Deans"
+
+  utter_Director:
+    - text: "Director: Dr.G.Girish "
+      image: "http://www.gmrit.org/img/Dr.girishnew.jpg"
+
+  utter_controller_of_examinations:
+    - text: "controller of examinations:Dr.T.Prabhakar"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50126.JPG"
+
+  utter_CSE_HOD:
+    - text: "CSE HOD:Dr.A.Venkata Ramana"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50170.JPG"
+
+  utter_IT_HOD:
+    - text: "IT HOD: Dr.Ajit Kumar Rout"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50172.JPG"
+
+  utter_CIVIL_HOD:
+    - text: "CIVIL HOD is Dr.G.Ganesh Prabhu"
+      image: "https://gmrit.edu.in/images/faculty/newimages/51788.JPG"
+
+  utter_ECE_HOD:
+    - text: "ECE HOD: Dr.V.Jagan Naveen"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50111.JPG"
+
+  utter_EEE_HOD:
+    - text: "EEE HOD: Dr.P.Ramana"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50110.JPG"
+
+  utter_MECH_HOD:
+    - text: "MECH HOD is Dr.V.Rambabu"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50262.JPG"
+
+  utter_BSH_HOD:
+    - text: "BSH HOD: Dr.R.L.Naidu"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50116.JPG"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 
 actions:
   - utter_greet
+  - utter_gender
   - utter_sad_cheer_up
   - utter_happy_cheer_up
   - utter_did_that_help
@@ -346,7 +396,7 @@ actions:
   - utter_online_payments  
   - utter_department_info
   - action_carousels
-  - utter_Faculty_details
+  - utter_faculty_details
   - action_faculty_details
   - utter_HOD_details
   - action_hod_details
@@ -361,11 +411,17 @@ actions:
   - action_Faculty_details_CSE
   - utter_Faculty_details_CSE
   - action_Faculty_details_civil
+  - utter_Faculty_details_civil
   - action_Faculty_details_ece
+  - utter_Faculty_details_ece
   - action_Faculty_details_eee
+  - utter_Faculty_details_eee
   - action_Faculty_details_it
+  - utter_Faculty_details_it
   - action_Faculty_details_mech
+  - utter_Faculty_details_mech
   - action_Faculty_details_bsh
+  - utter_Faculty_details_bsh
   - utter_NIRF_ranking
   - action_Notifications
   - action_Exam_Notifications
@@ -399,12 +455,22 @@ actions:
   - action_VLSI_and_embedded_systems_design
   - action_Thermal
   - utter_Infrastructure
-  - utter_Principle
-  - utter_controller_of_examinations
+  - utter_Principal
+  - utter_NAAC_accrediation
+  - utter_NBA_accrediation
   - utter_CDC_Head
-  - utter_Academic_dean
+  - utter_academic_dean
   - utter_student_dean
   - utter_R&D_dean
   - utter_dean
-  - utter_welcome
-  - utter_gender
+  - utter_Director
+  - utter_controller_of_examinations
+  - utter_CSE_HOD
+  - utter_IT_HOD
+  - utter_CIVIL_HOD
+  - utter_ECE_HOD
+  - utter_EEE_HOD
+  - utter_MECH_HOD
+  - utter_BSH_HOD
+
+
