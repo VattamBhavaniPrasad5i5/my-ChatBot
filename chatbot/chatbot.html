@@ -1,12 +1,12 @@
 <html>
 
-<body>
+<body style="margin: 0%;">
 
   <head>
 
     <link rel="stylesheet" href="./chatbot.css">
   </head>
-
+  <iframe src="https://gmrit.edu.in/index.php" height="100%" width="100%"></iframe>
   <script>!(function () {
       let e = document.createElement("script"),
         t = document.head || document.getElementsByTagName("head")[0];
@@ -22,8 +22,10 @@
               socketUrl: "http://localhost:5005/",
               socketPath: "/socket.io/",
               title: "GMRIT CHATBOT",
-              subtitle: "restart by greeting the BOT",
-              profileAvatar: "avatarBot.png"
+              subtitle: "Feel free to ask",
+              profileAvatar: "avatarBot.png",
+              tooltipPayload: "/greet",
+              tooltipDelay: 500,
             },
             null
           );

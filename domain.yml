@@ -78,13 +78,14 @@ intents:
   - EEE_HOD
   - MECH_HOD
   - BSH_HOD
+  - admission_form
 
 responses:
-
+   
   utter_gender:
     - text: "As an artificial intelligence language model, I don't have a gender,age and emotions since I'm not a living being."
   utter_greet:
-    - text: "Hello there✌️"
+    - text: "HELLO✌️, Welcome to GMRIT💕"
   utter_sad_cheer_up:
     - text: "Here is something to cheer you up:"
       image: "https://media.tenor.com/lyagzpV526AAAAAd/mr-bean-emotional-mr-bean-surprising.gif"
@@ -100,13 +101,13 @@ responses:
     - text: "Great, carry on!"
 
   utter_goodbye:
-    - text: "Bye"
+    - text: "Bye👋"
 
   utter_iamabot:
-    - text: "I am GMRIT Chatbot and I am in good codition to reply all your question about collage.I am designed to understand natural language and engage in conversations about GMRIT college"
+    - text: "I am GMRIT Chatbot🤖 and I am in good codition to reply all your question about collage.I am designed to understand natural language and engage in conversations about GMRIT college"
 
   utter_collage_info:
-    - text: "Welcome to GMR Institute of Technology (GMRIT). 
+    - text: "Welcome to GMR Institute of Technology💕 (GMRIT🏫). 
     Established in the year 1997 by GMR Varalakshmi Foundation 
     – the corporate social responsibility arm of GMR Group 
     – GMRIT offers aspiring engineers high quality technical education. 
@@ -121,7 +122,7 @@ responses:
     - text: "Here we GO"
 
   utter_online_payments:
-    - text: "You can make your Student or Staff or Guest payments [HERE]({link1})"
+    - text: "You can make your Student or Staff or Guest payments💳 [HERE]({link1})"
 
   utter_faculty_details:
     - text: "Prinicipal: Dr.C.L.V.R.S.V.Prasad\n\nYou can check other Faculty_details [HERE]({link2})"
@@ -374,12 +375,16 @@ responses:
   utter_BSH_HOD:
     - text: "BSH HOD: Dr.R.L.Naidu"
       image: "https://gmrit.edu.in/images/faculty/newimages/50116.JPG"
-
+  
+  utter_admission_form:
+    - text: "A student at GMRIT undergoes an educational experience that extends beyond the academic to the cultural and the practical. GMRIT prepares its 
+            graduates for life not only as a professional engineer but also as a well-rounded, responsible and responsive member of society.Want to join in GMRIT,Download the Admission form [HERE]({link33})"      
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 
 actions:
+
   - utter_greet
   - utter_gender
   - utter_sad_cheer_up
@@ -472,5 +477,6 @@ actions:
   - utter_EEE_HOD
   - utter_MECH_HOD
   - utter_BSH_HOD
+  - action_admission_form
 
 

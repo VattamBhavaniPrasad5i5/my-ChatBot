@@ -475,6 +475,20 @@ class Thermal(Action):
         return []
 
 
+class admission_form(Action):
+
+    def name(self) -> Text:
+        return "action_admission_form"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        Link33 = "https://gmrit.edu.in/PDFs/Downloads/gmrit_admission_form.doc"
+        dispatcher.utter_template(
+            "utter_admission_form", tracker, link33=Link33)
+        return []
+
+
 class ActionCarousel_departmentInfo(Action):
     def name(self) -> Text:
         return "action_carousels"
@@ -557,7 +571,7 @@ class ActionCarousel_departmentInfo(Action):
                     {
                         "title": "MECH",
                         "subtitle": "Mechanical Engineering",
-                        "image_url": "https://gmrit.edu.in/images/blocks/Landing.png",
+                        "image_url": "https://gmrit.edu.in/images/blocks/Block-2.jpeg",
                         "buttons": [
                             {
                                 "title": "Click here",

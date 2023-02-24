@@ -448,6 +448,12 @@ stories:
       - action: utter_greet
       - intent: BSH_HOD
       - action: utter_BSH_HOD
+  - story: Admission_form
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: admission_form
+      - action: action_admission_form
              
      
   

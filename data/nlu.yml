@@ -1,7 +1,6 @@
 version: "3.1"
 
 nlu:
-
   - intent: gender
     examples: |
       - are u girl or boy
@@ -28,6 +27,7 @@ nlu:
       - goodmorning
       - goodevening
       - good afternoon
+      - hai
 
   - intent: goodbye
     examples: |
@@ -161,6 +161,25 @@ nlu:
       -departments info
       -deparments
       -branches
+      -cse
+      -CSE department
+      -CSE
+      -ece
+      -ECE department
+      -ECE
+      -it
+      -IT department
+      -IT
+      -eee
+      -EEE department
+      -EEE
+      -civil
+      -CIVIL department
+      -CIVIL
+      -mechanical
+      -mech
+      -mechanical department
+      -MECH
       -gmrit branches
       -what are the programs offered by GMRIT
       -what are the different programs offered
@@ -520,6 +539,8 @@ nlu:
       -infrastructure
       -facilities in gmrit
       -gmrit facilities
+      -life in gmrit
+      -how is gmrit
 
   - intent: Principal
     examples: |
@@ -666,3 +687,12 @@ nlu:
       -BSH HOD of GMRIT
       -GMRIT BSH HOD
       -hod of bsh
+  - intent: admission_form
+    examples: |
+      -how to download admission form
+      -about admissions
+      -admission details
+      -i want to admission in gmrit
+      -admissions
+      -can i join in gmrit
+      -i want to join in gmrit

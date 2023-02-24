@@ -1,28 +1,77 @@
-.rw-conversation-container .rw-header{background-color: #800080;}
-.rw-conversation-container .rw-messages-container .rw-message .rw-client{background-color: #800080;}
-.rw-conversation-container .rw-messages-container .rw-replies .rw-reply{
-  display:inline-block;}
-  .rw-conversation-container .rw-messages-container .rw-replies div.rw-reply{
-    background-color:#800080;
-    border: 0;
-        color: white;}
-.rw-conversation-container .rw-messages-container .rw-replies.rw-response{background-color: #800080;}
-.rw-conversation-container .rw-image-frame{width: 150px;height: 200px;background-size: cover;}
-.rw-conversation-container .rw-send .rw-send-icon-ready {
-fill: #800080;
-transition: fill .35s;
+.rw-conversation-container .rw-header {
+    background-image: linear-gradient(#00327Aff, #3687f1);
 }
-.rw-carousel-arrows-container .rw-right-arrow div.rw-arrow{margin-top: 2px}
-.rw-carousel-arrows-container .rw-left-arrow div.rw-arrow{margin-bottom: 2px}
-.conversation-container close-button {
-background-color: #F5360D;
+
+.rw-conversation-container .rw-messages-container .rw-message .rw-client {
+    background-image: linear-gradient(92deg, #00327Aff, #3687f1);
 }
-.rw-carousel-card-subtitle{height: 40px;
-padding-top: 10px;}
-.rw-widget-container .rw-launcher {background-color: #800080;} 
-.rw-open-launcher__container .rw-open-launcher {background-color: #800080;}
-.rw-carousel-container .rw-carousel-card .rw-carousel-buttons-container .rw-reply{
-    background-color:#800080;
-border: 0;
+
+.rw-conversation-container .rw-messages-container .rw-replies .rw-reply {
+    display: inline-block;
+}
+
+.rw-conversation-container .rw-messages-container .rw-replies div.rw-reply {
+    background-image: linear-gradient(92deg, #00327Aff, #3687f1);
+    border-width: 0.8px;
     color: white;
+}
+
+.rw-conversation-container .rw-messages-container {
+    background-color: white;
+}
+
+.rw-replies.rw-response {
+    background-image: linear-gradient(92deg, #00327Aff, #3687f1);
+}
+
+.rw-conversation-container .rw-image-frame {
+    width: 120px;
+    height: 170px;
+    background-size: cover;
+}
+
+.rw-conversation-container .rw-send .rw-send-icon-ready {
+    fill: linear-gradient(92deg, #00327Aff, #3687f1);
+
+    transition: fill .35s;
+}
+
+.rw-carousel-arrows-container .rw-right-arrow div.rw-arrow {
+    margin-top: 2px
+}
+
+.rw-carousel-arrows-container .rw-left-arrow div.rw-arrow {
+    margin-bottom: 2px
+}
+
+.conversation-container close-button {
+    background-color: #F5360D;
+}
+
+.rw-carousel-card-subtitle {
+    height: 40px;
+    padding-top: 10px;
+}
+
+.rw-widget-container .rw-launcher {
+    background-image: linear-gradient(92deg, #00327Aff, #3687f1);
+}
+
+.rw-open-launcher__container .rw-open-launcher {
+    background-image: linear-gradient(92deg, #00327Aff, #3687f1);
+}
+
+.rw-carousel-container .rw-carousel-card .rw-carousel-buttons-container .rw-reply {
+    background-image: linear-gradient(92deg, #00327Aff, #3687f1);
+    border: 0;
+    color: white;
+}
+
+.rw-carousel-container .rw-carousel-card {
+    background-color: white;
+    max-height: 300px;
+}
+
+.rw-conversation-container .rw-response {
+    background-color: lightgrey;
 }
