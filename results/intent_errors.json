@@ -1,10 +1,10 @@
 [
   {
-    "text": "hello..",
-    "intent": "intro",
+    "text": "who is the principal",
+    "intent": "Faculty_details",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.7824300527572632
+      "name": "Principal",
+      "confidence": 0.7591529488563538
     }
   },
   {
@@ -12,7 +12,15 @@
     "intent": "Placements",
     "intent_prediction": {
       "name": "Notifications",
-      "confidence": 0.5677902102470398
+      "confidence": 0.5524629354476929
+    }
+  },
+  {
+    "text": "how is gmrit",
+    "intent": "Infrastructure",
+    "intent_prediction": {
+      "name": "college_info",
+      "confidence": 0.42875751852989197
     }
   }
 ]

@@ -518,6 +518,40 @@ class ActionCarousel_departmentInfo(Action):
                         ]
                     },
                     {
+                        "title": "AI & DS",
+                        "subtitle": "CSE (Artificial Intelligence & Data Science)",
+                        "image_url": "https://gmrit.edu.in/images/department/CSE.jpeg",
+                        "buttons": [
+                            {
+                                "title": "Click here",
+                                "url": "https://gmrit.edu.in/department.php?code=AIDS",
+                                "type": "web_url"
+                            },
+                            {
+                                "title": "faculty",
+                                "url": "https://gmrit.edu.in/facultydirectory.php?dept=cse",
+                                "type": "web_url"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "AI & ML",
+                        "subtitle": "CSE (Artificial Intelligence & Machine Learning)",
+                        "image_url": "https://gmrit.edu.in/images/department/CSE.jpeg",
+                        "buttons": [
+                            {
+                                "title": "Click here",
+                                "url": "https://gmrit.edu.in/department.php?code=AIML",
+                                "type": "web_url"
+                            },
+                            {
+                                "title": "faculty",
+                                "url": "https://gmrit.edu.in/facultydirectory.php?dept=cse",
+                                "type": "web_url"
+                            }
+                        ]
+                    },
+                    {
                         "title": "ECE",
                         "subtitle": "Electronic Communication and engineering",
                         "image_url": "https://gmrit.edu.in/images/blocks/Block-5.jpeg",

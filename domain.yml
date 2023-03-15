@@ -85,7 +85,7 @@ responses:
   utter_gender:
     - text: "As an artificial intelligence language model, I don't have a gender,age and emotions since I'm not a living being."
   utter_greet:
-    - text: "HELLO✌️, Welcome to GMRIT💕"
+    - text: "HELLO✌️, Welcome to GMRIT💕\n\tLet's talk here👉"
   utter_sad_cheer_up:
     - text: "Here is something to cheer you up:"
       image: "https://media.tenor.com/lyagzpV526AAAAAd/mr-bean-emotional-mr-bean-surprising.gif"
@@ -341,7 +341,7 @@ responses:
       text: "GMRIT have 3 Deans"
 
   utter_Director:
-    - text: "Director: Dr.G.Girish "
+    - text: "Director: Dr.J.Girish "
       image: "http://www.gmrit.org/img/Dr.girishnew.jpg"
 
   utter_controller_of_examinations:
@@ -353,8 +353,8 @@ responses:
       image: "https://gmrit.edu.in/images/faculty/newimages/50170.JPG"
 
   utter_IT_HOD:
-    - text: "IT HOD: Dr.Ajit Kumar Rout"
-      image: "https://gmrit.edu.in/images/faculty/newimages/50172.JPG"
+    - text: "IT HOD: Dr. V. Vasudha Rani"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50400.JPG"
 
   utter_CIVIL_HOD:
     - text: "CIVIL HOD is Dr.G.Ganesh Prabhu"
