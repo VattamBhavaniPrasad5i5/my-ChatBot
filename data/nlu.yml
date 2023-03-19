@@ -600,6 +600,8 @@ nlu:
       -research and development dean
       -gmrit research and development dean
       -gmrit R&D dean
+      -R and D dean
+      -Research and development dean
 
   - intent: Dean
     examples: |
