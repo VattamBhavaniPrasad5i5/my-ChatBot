@@ -1,0 +1,17 @@
+rasa run -m models --enable-api --cors "*"
+rasa run actions
+rasa train 
+rasa shell
+rasa test
+rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml
+pip install SpeechReconition PyAudio
+
+Text to speech:
+pip install gtts
+sudo apt-get install mpg321
+
+
+##
+1.emojis(results,principles....ect)
+2.departments individually
+3.welcome message

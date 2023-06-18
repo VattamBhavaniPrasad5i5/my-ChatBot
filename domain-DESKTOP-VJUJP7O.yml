@@ -1,0 +1,482 @@
+version: "3.1"
+
+intents:
+  - gender
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_happy
+  - mood_unhappy
+  - bot_challenge
+  - college_info
+  - gmritan
+  - non_gmritan
+  - intro
+  - department_info
+  - online_payments
+  - Faculty_details
+  - HOD_details
+  - Academic_calendar
+  - Results
+  - Timetables
+  - 360view
+  - Faculty_details_CSE
+  - Faculty_details_civil
+  - Faculty_details_ece
+  - Faculty_details_eee
+  - Faculty_details_It
+  - Faculty_details_mech
+  - Faculty_details_bsh
+  - NIRF_ranking
+  - Notifications
+  - Exam_Notifications
+  - Placements
+  - Autonomy_Governance
+  - Academic_Regulations
+  - PG_Programs
+  - LAN-Based_courses
+  - Lecture_capturing_system
+  - Labs
+  - Library
+  - Sports
+  - Auditorium
+  - Dining
+  - Post_office
+  - ATM
+  - Medical_Assistance
+  - Bakery
+  - Canteen
+  - wifi
+  - security
+  - Recreation
+  - yoga
+  - Computer_Block
+  - student_parent_login
+  - Cyber_Security
+  - Environmental
+  - power_and_industrial_drives
+  - Transportation
+  - VLSI_and_embedded_systems_design
+  - Thermal
+  - Infrastructure
+  - Principal
+  - NAAC_accrediation
+  - NBA_accrediation
+  - CDC_Head
+  - academic_dean
+  - student_dean
+  - R&D_dean
+  - Dean
+  - Director
+  - controller_of_examinations
+  - CSE_HOD
+  - IT_HOD
+  - CIVIL_HOD
+  - ECE_HOD
+  - EEE_HOD
+  - MECH_HOD
+  - BSH_HOD
+  - admission_form
+
+responses:
+   
+  utter_gender:
+    - text: "As an artificial intelligence language model, I don't have a gender,age and emotions since I'm not a living being."
+  utter_greet:
+    - text: "HELLO✌️, Welcome to GMRIT💕\n\tLet's talk here👉"
+  utter_sad_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://media.tenor.com/lyagzpV526AAAAAd/mr-bean-emotional-mr-bean-surprising.gif"
+
+  utter_happy_cheer_up: 
+    - image: "https://media.tenor.com/bGgv8ew9uNAAAAAC/mr-bean.gif"
+      text: "Here is something to cheer you up:"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye👋"
+
+  utter_iamabot:
+    - text: "I am GMRIT Chatbot🤖 and I am in good codition to reply all your question about collage.I am designed to understand natural language and engage in conversations about GMRIT college"
+
+  utter_collage_info:
+    - text: "Welcome to GMR Institute of Technology💕 (GMRIT🏫). 
+    Established in the year 1997 by GMR Varalakshmi Foundation 
+    – the corporate social responsibility arm of GMR Group 
+    – GMRIT offers aspiring engineers high quality technical education. 
+    here is the link for [GMRIT]({link})" 
+  utter_gmritan:
+    - text: "Hi there! we are glad to have u in GMRIT"
+
+  utter_non_gmritan:
+    - text: "Hi there! here is some amazing collage GMRIT"
+
+  utter_department_info:
+    - text: "Here we GO"
+
+  utter_online_payments:
+    - text: "You can make your Student or Staff or Guest payments💳 [HERE]({link1})"
+
+  utter_faculty_details:
+    - text: "Prinicipal: Dr.C.L.V.R.S.V.Prasad\n\nYou can check other Faculty_details [HERE]({link2})"
+
+  utter_HOD_details:
+    - text: "A Head of Department (HOD) in an engineering college is the administrative leader of a specific department within the college.
+     You can check the HOD_details [HERE]({link3})"
+  
+  utter_Academic_calendar:
+    - text: "u looking for academic calender and u can get any academic calender of GMRIT [HERE]({link4})"
+
+  utter_Results:
+    - text: "You can check past and present updated Results [HERE]({link5})"
+  
+  utter_Timetables:
+    - text: "You can check the Timetables [HERE]({link6})"
+
+  utter_360view:
+    - text: "The lush green GMRIT campus spreads across 117 acres.Let's experience the GMRIT in 360 degree view [HERE]({link7})"
+
+  utter_Faculty_details_CSE:
+    - text: "HOD: Dr.A.V.Ramana\n\nDepartment faculty details are [HERE]({link8})"
+
+  utter_Faculty_details_civil:
+    - text: "HOD: G Ganesh Prabhu\n\nDepartment faculty details are  [HERE]({link9})"
+
+  utter_Faculty_details_ece:
+    - text: "HOD: Dr.V.Jagan Naveen\n\nDepartment faculty details are [HERE]({link10})"
+
+  utter_Faculty_details_eee:
+      - text: "HOD: Dr.Ramana Pilla\n\nDepartment faculty details are [HERE]({link11})"
+
+  utter_Faculty_details_It:
+    - text: "HOD: Dr Ajit Kumar Rout\n\nDepartment faculty details are [HERE]({link12})"
+  
+  utter_Faculty_details_mech:
+    - text: "HOD: Dr. V Rambabu\n\nDepartment faculty details are [HERE]({link13})"
+
+  utter_Faculty_details_bsh:
+    - text: "HOD: Dr.R.L.Naidu\n\nDepartment faculty details are [HERE]({link14})"
+  
+  utter_NIRF_ranking:
+    - text: "GMRIT Ranked 188 at National level in NIRF ranking, MHRD, New Delhi, July 2022."
+
+  utter_Notifications:
+    - text: "You can check Notifications [HERE]({link15})"
+
+  utter_Exam_Notifications:
+    - text: "You can check Exam_Notifications [HERE]({link16})"
+
+  utter_Placements:
+    - text: "GMRIT’s Training, Placement and Development Cell plays a critical role in networking graduating students with the industry. It prepares the students for the process of recruitment and simultaneously create awareness among companies about the recruitment opportunities at GMRIT.  
+            For more information click [HERE]({link17})"
+
+  utter_Autonomy_Governance:
+    - text: "In competitive education/job market, each college has a reputation to protect. Reputation is a more reliable tool than standardization to sustain the quality of education.For more information click [HERE]({link18})"
+
+  utter_Academic_Regulations:
+    - text: "You can check the Academic_Regulations [HERE]({link19})"
+
+  utter_PG_Programs:
+    - buttons:
+        - title: "Cyber Security"
+          payload: "/Cyber_Security"
+        - title: "Environmental"
+          payload: "/Environmental"
+        - title: "Power and Industrial Drives"
+          payload: "/power_and_industrial_drives"
+        - title: "Transportation"
+          payload: "/Transportation"
+        - title: "VLSI and Embedded Systems Design"
+          payload: "/VLSI_and_embedded_systems_design"
+        - title: "Thermal"
+          payload: "/Thermal"
+      text: "see more [HERE]({link20})."
+    
+
+  utter_LAN-Based_courses:
+    - text: "Lan-based courses offer an advantage in access to course information, in providing links to a wider resource base. Lan-based course do not guarantee increased knowledge but they do remove impediments from the learning process.You can access the LAN-Based_courses [HERE]({link21})"
+
+  utter_Lecture_capturing_system:
+    - text: "Watch classroom recordings-anytime-anywhere at your own place using LCS.You can access the Lecture_Capturing_System [HERE]({link22})"
+
+  utter_Labs:
+    - text: "GMRIT provides various lab facilities,you can check the details of labs [HERE]({link23})"
+
+  utter_Library:
+    - text: "There is a large Knowledge Resource Center(Library) in GMRIT.Here you can easily get access for borrowing books.You can check further details [HERE]({link24})"
+
+  utter_Sports:
+    - text: "Besides academics,GMRIT also gives most preference to sports and encourages students in various sports.For further details click [HERE]({link25})"
+
+  utter_Auditorium:
+    - text: "GMRIT has a state-of-the-art auditorium with a seating capacity of 264. Well designed acoustics, a 17000 W audio system, imported multimedia projector, special stage lighting, computerised AC system are just some of its hi-tech features."
+
+  utter_Dining:
+    - text: "The dining facility of GMRIT is very good enough providing hygienic and nutritious meals, two times a day. Well-ventilated and modern dining halls are provided for both the hostels. A resident F&B Manager is appointed to monitor and optimise the nutritional levels in food served."
+
+  utter_Post_office:
+    - text: "Post office is available with in the campus for convenience of students and faculty."
+
+  utter_ATM:
+    - text: "GMRIT also provides with ATM facility.The management has arranged an Andhra Bank ATM facility on campus for the convenience of students and faculty."
+
+  utter_Medical_Assistance:
+    - text: "GMRIT is providing good medical assistance to the students staying in the hostels.A doctor and health assistant offer their services to both hostels, everyday."
+
+  utter_Bakery:
+    - text: "This college also provides a bakery facility within each hostel to enable students to buy breads, seasonal fruits, juices, etc."
+
+  utter_Canteen:
+    - text: "Canteen facility is provided for day scholars with healthy and tasty foods at reasonable rates."
+
+  utter_wifi:
+    - text: "We are having 1 GBPS dedicated Internet bandwidth from BSNL & Airtel through leased lines to provide Internet facility to all the students and staff members of GMRIT. Wireless networking facility is also provided within the campus to connect mobile users."
+
+  utter_security:
+   - text: "Hostels are provided with round-the-clock security all through the year."
+
+  utter_recreation:
+   - text: "Both hostels are provided with TV's, board games, newspapers, journals, etc. for indoor entertainment. Separate shuttle courts are also provided in the hostel complex. Hostelers are taken out for a movie or shopping, once a month"
+
+  utter_yoga:
+   - text: "Students are encouraged to attend Yoga classes to help them balance work and recreation, mind and body."
+
+  utter_Computer_block:
+   - text: "A computer block with internet facility is provided in the women's hostel for computer-related work after college hours."
+
+  utter_student_parent_login:
+   - text: "Student/Parent/faculty can login [HERE]({link26})."
+
+  utter_Cyber_Security:
+    - text: "To Know more about cyber security program click [HERE]({link27})"
+
+  utter_Environmental:
+    - text: "To Know more about Environmental program click [HERE]({link28})"
+
+  utter_power_and_industrial_drives:
+    - text: "To Know more about power and industrial drives program click [HERE]({link29})"
+
+  utter_Transportation:
+    - text: "To Know more about Transportation program click [HERE]({link30})"
+
+  utter_VLSI_and_embedded_systems_design:
+    - text: "To Know more about VLSI and embedded systems design program click [HERE]({link31})"
+
+  utter_Thermal:
+    - text: "To Know more about Thermal program click [HERE]({link32})"
+
+  utter_Infrastructure:
+    - buttons:
+        - title: "Modern Auditorium"
+          payload: "/Auditorium"
+        - title: "Dining"
+          payload: "/Dining"
+        - title: "Post_office"
+          payload: "/Post_office"
+        - title: "ATM"
+          payload: "/ATM"
+        - title: "Medical_Assistance"
+          payload: "/Medical_Assistance"
+        - title: "Bakery"
+          payload: "/Bakery"
+        - title: "Canteen"
+          payload: "/Canteen"
+        - title: "wifi"
+          payload: "/wifi"
+        - title: "security"
+          payload: "/security"
+        - title: "Recreation"
+          payload: "/Recreation"
+        - title: "Canteen"
+          payload: "/Canteen"
+        - title: "wifi"
+          payload: "/wifi"
+        - title: "yoga"
+          payload: "/yoga"
+        - title: "Computer_Block"
+          payload: "/Computer_Block"
+      text: "Here we GO."
+
+  utter_Principal:
+    - text: "Principal: Dr.C.L.V.R.S.V.Prasad"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50203.JPG"
+
+  utter_NAAC_accrediation :
+    - text: " The Executive Committe of the National Assessment and Accrediation Council accrediated GMRIT with A grade with validation upto October 19, 2026 "
+
+  utter_NBA_accrediation :
+    - text: " GMRIT is accrediated by NBA(National Board of Accrediation) in Tier-1(autonomous) for the UG engineering program which is validated upto the year 2026  "
+
+  utter_CDC_Head:
+    - text: "CDC Head:Dr.Surya Narayan Dash"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50282.JPG"
+
+  utter_academic_dean:
+    - text: "Asso. Dean(Acadamics):D r.M. V. Nageswara Rao"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50225.JPG"
+
+  utter_student_dean:
+    - text: "Asso. Dean(Student Affairs):Dr. G. Sasikumar"
+      image: "https://gmrit.edu.in/images/faculty/newimages/51433.JPG"
+
+  utter_R&D_dean:
+    - text: "Asso. Dean(R & D):Dr.P.S.Venkata Narayana"
+      image: "https://gmrit.edu.in/images/faculty/newimages/52013.JPG"
+
+  utter_dean:
+    - buttons:
+      - title: "Asso.Dean(Acadamics)"
+        payload: "/academic_dean"
+      - title: "Asso.Dean(Student Affairs)"
+        payload: "/student_dean"
+      - title: "Asso.Dean(R & D)"
+        payload: "/R&D_dean"
+      text: "GMRIT have 3 Deans"
+
+  utter_Director:
+    - text: "Director: Dr.J.Girish "
+      image: "http://www.gmrit.org/img/Dr.girishnew.jpg"
+
+  utter_controller_of_examinations:
+    - text: "controller of examinations:Dr.T.Prabhakar"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50126.JPG"
+
+  utter_CSE_HOD:
+    - text: "CSE HOD:Dr.A.Venkata Ramana"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50170.JPG"
+
+  utter_IT_HOD:
+    - text: "IT HOD: Dr. V. Vasudha Rani"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50400.JPG"
+
+  utter_CIVIL_HOD:
+    - text: "CIVIL HOD is Dr.G.Ganesh Prabhu"
+      image: "https://gmrit.edu.in/images/faculty/newimages/51788.JPG"
+
+  utter_ECE_HOD:
+    - text: "ECE HOD: Dr.V.Jagan Naveen"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50111.JPG"
+
+  utter_EEE_HOD:
+    - text: "EEE HOD: Dr.P.Ramana"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50110.JPG"
+
+  utter_MECH_HOD:
+    - text: "MECH HOD is Dr.V.Rambabu"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50262.JPG"
+
+  utter_BSH_HOD:
+    - text: "BSH HOD: Dr.R.L.Naidu"
+      image: "https://gmrit.edu.in/images/faculty/newimages/50116.JPG"
+  
+  utter_admission_form:
+    - text: "A student at GMRIT undergoes an educational experience that extends beyond the academic to the cultural and the practical. GMRIT prepares its 
+            graduates for life not only as a professional engineer but also as a well-rounded, responsible and responsive member of society.Want to join in GMRIT,Download the Admission form [HERE]({link33})"      
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+
+  - utter_greet
+  - utter_gender
+  - utter_sad_cheer_up
+  - utter_happy_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_iamabot
+  - utter_collage_info
+  - utter_gmritan
+  - utter_non_gmritan
+  - action_hello_world
+  - action_online_payments
+  - utter_online_payments  
+  - utter_department_info
+  - action_carousels
+  - utter_faculty_details
+  - action_faculty_details
+  - utter_HOD_details
+  - action_hod_details
+  - utter_Academic_calendar
+  - action_academic_calendar
+  - utter_Results
+  - action_results
+  - utter_Timetables
+  - action_timetable
+  - utter_360view
+  - action_360view
+  - action_Faculty_details_CSE
+  - utter_Faculty_details_CSE
+  - action_Faculty_details_civil
+  - utter_Faculty_details_civil
+  - action_Faculty_details_ece
+  - utter_Faculty_details_ece
+  - action_Faculty_details_eee
+  - utter_Faculty_details_eee
+  - action_Faculty_details_it
+  - utter_Faculty_details_it
+  - action_Faculty_details_mech
+  - utter_Faculty_details_mech
+  - action_Faculty_details_bsh
+  - utter_Faculty_details_bsh
+  - utter_NIRF_ranking
+  - action_Notifications
+  - action_Exam_Notifications
+  - action_Placements
+  - action_Autonomy_Governance
+  - action_Academic_Regulations
+  - action_PG_Programs
+  - action_LAN-Based_courses
+  - action_Lecture_capturing_system
+  - action_Labs
+  - action_Library
+  - action_Sports
+  - utter_Auditorium
+  - utter_Dining
+  - utter_Post_office
+  - utter_ATM
+  - utter_Medical_Assistance
+  - utter_Bakery
+  - utter_Canteen
+  - utter_wifi
+  - utter_security
+  - utter_recreation
+  - utter_yoga
+  - utter_Computer_block
+  - utter_student_parent_login
+  - action_student_parent_login
+  - action_Cyber_Security
+  - action_Environmental
+  - action_power_and_industrial_drives
+  - action_Transportation
+  - action_VLSI_and_embedded_systems_design
+  - action_Thermal
+  - utter_Infrastructure
+  - utter_Principal
+  - utter_NAAC_accrediation
+  - utter_NBA_accrediation
+  - utter_CDC_Head
+  - utter_academic_dean
+  - utter_student_dean
+  - utter_R&D_dean
+  - utter_dean
+  - utter_Director
+  - utter_controller_of_examinations
+  - utter_CSE_HOD
+  - utter_IT_HOD
+  - utter_CIVIL_HOD
+  - utter_ECE_HOD
+  - utter_EEE_HOD
+  - utter_MECH_HOD
+  - utter_BSH_HOD
+  - action_admission_form
+
+
